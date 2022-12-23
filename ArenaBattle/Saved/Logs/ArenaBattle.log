@@ -2475,3 +2475,117 @@ Total execution time: 50.39 seconds
 [2022.12.23-13.08.22:223][809]LogSlate: Window 'Content Browser' being destroyed
 [2022.12.23-13.15.52:228][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
 [2022.12.23-13.15.52:334][423]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
+[2022.12.23-13.17.51:496][841]LogSlate: Took 0.010063 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.12.23-13.20.44:780][430]LogSlate: Window 'New Level' being destroyed
+[2022.12.23-13.20.44:804][430]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.12.23-13.20.44:836][430]LightingResults: New page: Lighting Build
+[2022.12.23-13.20.44:836][430]LoadErrors: New page: Loading map: Template_Default.umap
+[2022.12.23-13.20.44:844][430]LogWorld: UWorld::CleanupWorld for ElvenRuins, bSessionEnded=true, bCleanupResources=true
+[2022.12.23-13.20.44:844][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.23-13.20.44:845][430]MapCheck: New page: Map Check
+[2022.12.23-13.20.44:845][430]LightingResults: New page: Lighting Build
+[2022.12.23-13.20.44:848][430]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.23-13.20.44:887][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2022.12.23-13.20.45:054][430]LogTexture: Display: Building textures: DeprecatedTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2022.12.23-13.20.45:059][430]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2022.12.23-13.20.45:060][430]LogAIModule: Creating AISystem for world Untitled_1
+[2022.12.23-13.20.45:063][430]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.12.23-13.20.45:140][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.12.23-13.20.45:146][430]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.12.23-13.20.45:146][430]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.118ms to complete.
+[2022.12.23-13.20.45:146][430]LogFileHelpers: Loading map 'Template_Default' took 0.343
+[2022.12.23-13.20.58:968][ 53]LogStaticMesh: Building static mesh SM_SQUARE...
+[2022.12.23-13.21.00:903][ 53]LogStaticMesh: Built static mesh [1.94s] /Game/Book/StaticMesh/SM_SQUARE.SM_SQUARE
+[2022.12.23-13.21.01:060][ 53]LogActorFactory: Actor Factory created SM_SQUARE
+[2022.12.23-13.21.04:405][442]LogActorFactory: Actor Factory created SM_SQUARE
+[2022.12.23-13.21.34:906][736]LogSlate: Window 'Save Level As' being destroyed
+[2022.12.23-13.21.35:234][772]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.12.23-13.21.55:442][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SQUARE)
+[2022.12.23-13.22.15:486][445]Cmd: DELETE
+[2022.12.23-13.22.15:501][445]Cmd: ACTOR DELETE
+[2022.12.23-13.22.15:802][445]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.12.23-13.22.15:821][445]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.12.23-13.22.15:825][445]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2022.12.23-13.23.43:589][647]LogSlate: Window 'Save Level As' being destroyed
+[2022.12.23-13.25.17:377][951]LogSlate: Window 'Save Level As' being destroyed
+[2022.12.23-13.27.33:643][608]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.23-13.27.33:647][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.23-13.27.33:647][608]PIE: New page: PIE session: Untitled_1 (2022. 12. 24. 오전 7:27:33)
+[2022.12.23-13.27.33:679][608]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2022.12.23-13.27.33:681][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001974s)
+[2022.12.23-13.27.33:682][608]LogAIModule: Creating AISystem for world Untitled_1
+[2022.12.23-13.27.33:682][608]LogPlayLevel: PIE: World Init took: (0.001351s)
+[2022.12.23-13.27.33:682][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003500s)
+[2022.12.23-13.27.33:686][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.12.23-13.27.33:690][608]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.12.23-13.27.33:690][608]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.23-13.27.33:690][608]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.23-13.27.33:690][608]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.23-13.27.33:690][608]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.23-13.27.33:690][608]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.23-13.27.33:690][608]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.23-13.27.33:690][608]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.23-13.27.33:690][608]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.23-13.27.33:691][608]LogAudio: Display: Using built-in audio occlusion.
+[2022.12.23-13.27.33:691][608]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.23-13.27.33:693][608]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.23-13.27.33:693][608]LogAudioMixer: Display: 1: FrontRight
+[2022.12.23-13.27.33:707][608]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.12.23-13.27.33:707][608]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.23-13.27.33:707][608]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.23-13.27.33:707][608]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.23-13.27.33:708][608]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.23-13.27.33:708][608]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.23-13.27.33:708][608]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.23-13.27.33:720][608]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.23-13.27.33:720][608]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.23-13.27.33:720][608]LogInit: FAudioDevice initialized.
+[2022.12.23-13.27.33:720][608]LogAudio: Display: Audio Device (ID: 3) registered with world 'Untitled_1'.
+[2022.12.23-13.27.33:732][608]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.12.23-13.27.33:733][608]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2022.12.23-22.27.33
+[2022.12.23-13.27.33:733][608]LogWorld: Bringing up level for play took: 0.000570
+[2022.12.23-13.27.33:733][608]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2022.12.23-13.27.33:737][608]PIE: Server logged in
+[2022.12.23-13.27.33:738][608]PIE: Play in editor total start time 0.091 seconds.
+[2022.12.23-13.27.41:130][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.23-13.27.41:131][487]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2022.12.23-13.27.41:131][487]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2022.12.23-13.27.41:131][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.23-13.27.41:142][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.23-13.27.41:153][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.23-13.27.41:155][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.23-13.27.41:156][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.23-13.27.41:157][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.23-13.27.41:171][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.12.23-13.27.41:220][489]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.12.23-13.28.38:538][854]LogSlate: Window 'Save Level As' being destroyed
+[2022.12.23-13.28.38:631][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step1" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.23-13.28.38:657][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.12.23-13.28.38:777][854]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step1555273624E4B16AC291D87A620396B84.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step1.umap'
+[2022.12.23-13.28.38:839][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step1_BuiltData" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step1_BuiltData.uasset" SILENT=true
+[2022.12.23-13.28.38:851][854]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step1_BuiltData2416970046E8BC0A1014B48BC3103645.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step1_BuiltData.uasset'
+[2022.12.23-13.28.38:860][854]LogFileHelpers: Saving map 'Step1' took 0.306
+[2022.12.23-13.28.38:865][854]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.23-13.28.38:865][854]LogContentValidation: Display: Validating World /Game/Book/Maps/Step1.Step1
+[2022.12.23-13.28.38:865][854]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Book/Maps/Step1_BuiltData.Step1_BuiltData
+[2022.12.23-13.28.46:484][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.12.23-13.28.46:502][755]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Book/Maps/Step1.Step1
+[2022.12.23-13.28.46:502][755]Cmd: MAP LOAD FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.12.23-13.28.46:503][755]LightingResults: New page: Lighting Build
+[2022.12.23-13.28.46:503][755]LoadErrors: New page: Loading map: Step1.umap
+[2022.12.23-13.28.46:533][755]LogWorld: UWorld::CleanupWorld for Step1, bSessionEnded=true, bCleanupResources=true
+[2022.12.23-13.28.46:533][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.23-13.28.46:533][755]MapCheck: New page: Map Check
+[2022.12.23-13.28.46:533][755]LightingResults: New page: Lighting Build
+[2022.12.23-13.28.46:536][755]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.23-13.28.46:538][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.12.23-13.28.46:542][755]LogAudio: Display: Audio Device (ID: 1) registered with world 'Step1'.
+[2022.12.23-13.28.46:543][755]LogAIModule: Creating AISystem for world Step1
+[2022.12.23-13.28.46:545][755]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.12.23-13.28.46:550][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.12.23-13.28.46:553][755]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.12.23-13.28.46:553][755]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.08ms to complete.
+[2022.12.23-13.28.46:553][755]LogFileHelpers: Loading map 'Step1' took 0.050
+[2022.12.23-13.29.02:538][471]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.12.23-13.31.34:413][ 81]LogSlate: Window 'Project Settings' being destroyed
+[2022.12.23-13.31.34:418][ 81]LogSlate: Window 'Project Settings' being destroyed
