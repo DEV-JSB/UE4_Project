@@ -45,6 +45,10 @@
 SourceArt/**/*.png
 SourceArt/**/*.tga
 
+# UnrealEngine Generated Files Custom JSB
+*/Binaries
+
+
 # Binary Files
 Binaries/*
 Plugins/*/Binaries/*
