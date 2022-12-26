@@ -1,2 +1,2 @@
-D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4\Development\ArenaBattle\Definitions.ArenaBattle.h
-D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\ArenaBattle.h
+D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4\Development\ArenaBattle\Definitions.ArenaBattle.h
+D:\Git\UE4_Project\ArenaBattle\Source\ArenaBattle\ArenaBattle.h

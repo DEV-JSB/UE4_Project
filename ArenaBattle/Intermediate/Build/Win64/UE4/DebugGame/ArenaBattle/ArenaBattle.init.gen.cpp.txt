@@ -1,0 +1,3 @@
+D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4\DebugGame\ArenaBattle\Definitions.ArenaBattle.h
+D:\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

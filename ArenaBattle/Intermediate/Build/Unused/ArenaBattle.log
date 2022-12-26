@@ -1,20 +1,12 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealProject\UE4_Project).
-  Creating makefile for ArenaBattle (no existing makefile)
-  Parsing headers for ArenaBattle
-    Running UnrealHeaderTool "D:\UnrealProject\UE4_Project\ArenaBattle\ArenaBattle.uproject" "D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattle\Development\ArenaBattle.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mvat1\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for ArenaBattle in 5.5744707 seconds
-  Building ArenaBattle...
-  Using Visual Studio 2019 14.29.30146 toolchain (D:\VS2019\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 9 actions with 16 processes...
-    [1/9] Default.rc2
-    [2/9] turbojpeg.dll
-    [3/9] SharedPCH.Engine.ShadowErrors.cpp
-    [4/9] Fountain.cpp
-    [5/9] ArenaBattle.cpp
-    [6/9] ArenaBattle.init.gen.cpp
-    [7/9] Fountain.gen.cpp
-    [8/9] ArenaBattle.exe
-       Creating library D:\UnrealProject\UE4_Project\ArenaBattle\Binaries\Win64\ArenaBattle.lib and object D:\UnrealProject\UE4_Project\ArenaBattle\Binaries\Win64\ArenaBattle.exp
-    [9/9] ArenaBattle.target
-  Total time in Parallel executor: 59.07 seconds
-  Total execution time: 67.36 seconds
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Git\UE4_Project).
+  Building ArenaBattleEditor...
+  Using Visual Studio 2019 14.29.30146 toolchain (D:\VS2019\VC\Tools\MSVC\14.29.30133) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 12 processes...
+    [1/4] Fountain.cpp
+    [2/4] UE4Editor-ArenaBattle-0016.lib
+       Creating library D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0016.lib and object D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0016.exp
+    [3/4] UE4Editor-ArenaBattle-0016.dll
+       Creating library D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0016.suppressed.lib and object D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0016.suppressed.exp
+    [4/4] ArenaBattleEditor.target
+  Total time in Parallel executor: 4.31 seconds
+  Total execution time: 4.73 seconds

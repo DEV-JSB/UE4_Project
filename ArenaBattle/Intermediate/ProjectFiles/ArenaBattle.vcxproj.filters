@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ArenaBattle.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EC56763C-10A9-4183-9268-26E3ACBEFDA3}</UniqueIdentifier>
+      <UniqueIdentifier>{23F40B17-7D1F-4CC5-A970-7D1D74652936}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaBattle.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5DDC5F76-8E1A-4C18-B22D-3E3453C28457}</UniqueIdentifier>
+      <UniqueIdentifier>{0344238B-C16C-4A48-8B70-4FEA10A69E28}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ArenaBattle">
-      <UniqueIdentifier>{462F25BA-65DE-41AC-A12C-FAB9B3B925A6}</UniqueIdentifier>
+      <UniqueIdentifier>{CB5585B3-0DC5-48DC-A999-02977F5443FF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaBattle\ArenaBattle.Build.cs">
       <Filter>Source\ArenaBattle</Filter>
