@@ -39,4 +39,8 @@ public:
 	USpringArmComponent* m_pSpringArm;
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 	UCameraComponent* m_pCamera;
+
+private:
+	void UpDown(float _fNewAxisValue);
+	void LeftRight(float _fNewAxisValue);
 };

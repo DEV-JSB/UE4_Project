@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ArenaBattle.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1ACE1A15-D09A-4DB3-A04E-E4DF8B2ECFF3}</UniqueIdentifier>
+      <UniqueIdentifier>{9374DF41-F907-4779-933B-CC98A7D94FA2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaBattle.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{1A290509-CE59-4A48-BFD3-B7F98E0F12E4}</UniqueIdentifier>
+      <UniqueIdentifier>{7D4602A3-A6A8-4D19-8FD4-ABE786C2ED1B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ArenaBattle">
-      <UniqueIdentifier>{A70993E0-4C91-490E-8404-561545B5D83C}</UniqueIdentifier>
+      <UniqueIdentifier>{2AECB454-4375-41EF-8CDF-5C231929B25F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ArenaBattle\ABGameMode.cpp">
       <Filter>Source\ArenaBattle</Filter>
