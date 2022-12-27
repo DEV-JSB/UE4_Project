@@ -2,6 +2,7 @@ D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\Ar
 D:\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 D:\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 D:\Git\UE4_Project\ArenaBattle\Source\ArenaBattle/Fountain.h
+D:\Git\UE4_Project\ArenaBattle\Source\ArenaBattle\ArenaBattle.h
 D:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\EngineMinimal.h
 D:\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 D:\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\CoreUObject.h
@@ -196,4 +197,6 @@ D:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Dialo
 D:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
 D:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 D:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+D:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/RotatingMovementComponent.h
+D:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RotatingMovementComponent.generated.h
 D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\Fountain.generated.h

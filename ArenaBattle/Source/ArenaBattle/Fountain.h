@@ -2,7 +2,8 @@
 
 #pragma once
 
-#include "EngineMinimal.h"
+#include "ArenaBattle.h"
+#include "GameFramework/RotatingMovementComponent.h"
 #include "GameFramework/Actor.h"
 #include "Fountain.generated.h"
 
@@ -18,24 +19,32 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
+	virtual void PostInitializeComponents() override;
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 public:
-	
 	UPROPERTY(VisibleAnywhere)
-	UStaticMeshComponent* Body;
+	UStaticMeshComponent* m_pBody;
 	UPROPERTY(VisibleAnywhere)
-	UStaticMeshComponent* Water;
+	UStaticMeshComponent* m_pWater;
+	UPROPERTY(VisibleAnywhere)
+	UPointLightComponent* m_pLight;
+	UPROPERTY(VisibleAnywhere)
+	UParticleSystemComponent* m_pSplash;
+	UPROPERTY(VisibleAnywhere)
+	URotatingMovementComponent* m_pMovement;
 
-	UPROPERTY(VisibleAnywhere)
-	UPointLightComponent* Light;
-	UPROPERTY(VisibleAnywhere)
-	UParticleSystemComponent* Splash;
-
+public:
 	UPROPERTY(EditAnywhere,Category = ID)
-	int32 ID;
+	int32 m_iID;
+public:
+
+private:
+	UPROPERTY(EditAnywhere, Category = Stat, Meta = (AllowPrivateAccess = true))
+	float m_fRotateSpeed;
 
 };
