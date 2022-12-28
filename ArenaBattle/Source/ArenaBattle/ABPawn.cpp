@@ -41,6 +41,15 @@ AABPawn::AABPawn()
 		m_pMesh->SetSkeletalMesh(SK_CARDBOARD.Object);
 	}
 
+
+	m_pMesh->SetAnimationMode(EAnimationMode::AnimationBlueprint);
+	static ConstructorHelpers::FClassFinder<UAnimInstance>
+		WARRIOR_ANIM(TEXT("/Game/Book/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint"));
+	if (WARRIOR_ANIM.Succeeded())
+	{
+		m_pMesh->SetAnimInstanceClass(WARRIOR_ANIM.Class);
+	}
+
 }
 
 // Called when the game starts or when spawned
@@ -48,6 +57,10 @@ void AABPawn::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	/*m_pMesh->SetAnimationMode(EAnimationMode::AnimationSingleNode);
+	UAnimationAsset* pAnimAsset = LoadObject<UAnimationAsset>(nullptr, TEXT("/Game/Book/Animations/WarriorRun.WarriorRun"));
+	if (nullptr != pAnimAsset)
+		m_pMesh->PlayAnimation(pAnimAsset, true);*/
 }
 
 // Called every frame
@@ -80,12 +93,11 @@ void AABPawn::PossessedBy(AController* _pNewController)
 
 void AABPawn::UpDown(float _fNewAxisValue)
 {
-	ABLOG(Warning, TEXT("%f"), _fNewAxisValue);
+	AddMovementInput(GetActorForwardVector(), _fNewAxisValue);
 }
 
 void AABPawn::LeftRight(float _fNewAxisValue)
 {
-
-	ABLOG(Warning, TEXT("%f"), _fNewAxisValue);
+	AddMovementInput(GetActorRightVector(), _fNewAxisValue);
 }
 

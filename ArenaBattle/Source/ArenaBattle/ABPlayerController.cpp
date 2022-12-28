@@ -9,6 +9,16 @@ void AABPlayerController::OnPossess(APawn* _pAPawn)
 	Super::OnPossess(_pAPawn);
 }
 
+void AABPlayerController::BeginPlay()
+{
+	Super::BeginPlay();
+	
+
+	FInputModeGameOnly InputMode;
+	SetInputMode(InputMode);
+
+}
+
 void AABPlayerController::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();

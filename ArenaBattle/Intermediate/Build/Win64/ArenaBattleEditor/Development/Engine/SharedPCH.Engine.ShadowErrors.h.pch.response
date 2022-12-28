@@ -254,16 +254,16 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
 /I D:\VS2019\VC\Tools\MSVC\14.29.30133\INCLUDE
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/I D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\Engine
-/Yc"D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
-/Fo"D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/I D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\Engine
+/Yc"D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+/Fo"D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 /TP
 /GR-
 /W4

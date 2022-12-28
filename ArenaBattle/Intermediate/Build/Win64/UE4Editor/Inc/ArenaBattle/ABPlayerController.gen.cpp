@@ -40,7 +40,6 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerController() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABPlayerController_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "ABPlayerController.h" },
 		{ "ModuleRelativePath", "ABPlayerController.h" },
@@ -73,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABPlayerController, 633283806);
+	IMPLEMENT_CLASS(AABPlayerController, 562092662);
 	template<> ARENABATTLE_API UClass* StaticClass<AABPlayerController>()
 	{
 		return AABPlayerController::StaticClass();
