@@ -42,9 +42,10 @@ AABPawn::AABPawn()
 	}
 
 
+
 	m_pMesh->SetAnimationMode(EAnimationMode::AnimationBlueprint);
 	static ConstructorHelpers::FClassFinder<UAnimInstance>
-		WARRIOR_ANIM(TEXT("/Game/Book/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint"));
+		WARRIOR_ANIM(TEXT("/Game/Book/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint_C"));
 	if (WARRIOR_ANIM.Succeeded())
 	{
 		m_pMesh->SetAnimInstanceClass(WARRIOR_ANIM.Class);
