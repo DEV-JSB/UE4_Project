@@ -31,7 +31,7 @@ AABCharacter::AABCharacter()
 		GetMesh()->SetAnimInstanceClass(WORRIOR_ANIM.Class);
 
 	//SetControlMode(0);
-	SetControlMode(EControlMode::DIABLO);
+	SetControlMode(EControlMode::GTA);
 
 }
 
@@ -60,6 +60,9 @@ void AABCharacter::SetControlMode(EControlMode _eControlMode)
 
 		// Character Rotation To Camera Foward
 		GetCharacterMovement()->bOrientRotationToMovement = true;
+
+		GetCharacterMovement()->bUseControllerDesiredRotation = false;
+		
 		GetCharacterMovement()->RotationRate = FRotator(0.0f, 720.0f, 0.0f);
 		break;
 	case EControlMode::DIABLO:
@@ -70,7 +73,12 @@ void AABCharacter::SetControlMode(EControlMode _eControlMode)
 		m_pSpringArm->bInheritYaw = false;
 		m_pSpringArm->bInheritRoll = false;
 		m_pSpringArm->bDoCollisionTest = false;
-		bUseControllerRotationYaw = true;
+
+
+		bUseControllerRotationYaw = false;
+		GetCharacterMovement()->bOrientRotationToMovement = false;
+		GetCharacterMovement()->bUseControllerDesiredRotation = false;
+		GetCharacterMovement()->RotationRate = FRotator(0.0f, 720.0f, 0.0f);
 		break;
 	}
 }
@@ -101,7 +109,6 @@ void AABCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 	PlayerInputComponent->BindAxis(TEXT("Turn"), this, &AABCharacter::Turn);
 	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &AABCharacter::LookUp);
-
 }
 
 void AABCharacter::UpDown(float m_fNewAxisValue)
