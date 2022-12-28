@@ -30,7 +30,8 @@ AABCharacter::AABCharacter()
 	if (WORRIOR_ANIM.Succeeded())
 		GetMesh()->SetAnimInstanceClass(WORRIOR_ANIM.Class);
 
-	SetControlMode(0);
+	//SetControlMode(0);
+	SetControlMode(EControlMode::DIABLO);
 
 }
 
@@ -41,11 +42,13 @@ void AABCharacter::BeginPlay()
 	
 }
 
-void AABCharacter::SetControlMode(int32 _iControlMode)
+void AABCharacter::SetControlMode(EControlMode _eControlMode)
 {
-	if (0 == _iControlMode)
+	m_eCurrentControlMode = _eControlMode;
+	switch (m_eCurrentControlMode)
 	{
-		m_pSpringArm->TargetArmLength = 200.0f;
+	case EControlMode::GTA:
+		m_pSpringArm->TargetArmLength = 450.0f;
 		m_pSpringArm->SetRelativeRotation(FRotator::ZeroRotator);
 		m_pSpringArm->bUsePawnControlRotation = true;
 		m_pSpringArm->bInheritPitch = true;
@@ -54,6 +57,21 @@ void AABCharacter::SetControlMode(int32 _iControlMode)
 
 		m_pSpringArm->bDoCollisionTest = true;
 		bUseControllerRotationYaw = false;
+
+		// Character Rotation To Camera Foward
+		GetCharacterMovement()->bOrientRotationToMovement = true;
+		GetCharacterMovement()->RotationRate = FRotator(0.0f, 720.0f, 0.0f);
+		break;
+	case EControlMode::DIABLO:
+		m_pSpringArm->TargetArmLength = 800.0f;
+		m_pSpringArm->SetRelativeRotation(FRotator(-45.0f, 0.0f, 0.0f));
+		m_pSpringArm->bUsePawnControlRotation = false;
+		m_pSpringArm->bInheritPitch = false;
+		m_pSpringArm->bInheritYaw = false;
+		m_pSpringArm->bInheritRoll = false;
+		m_pSpringArm->bDoCollisionTest = false;
+		bUseControllerRotationYaw = true;
+		break;
 	}
 }
 
@@ -61,7 +79,16 @@ void AABCharacter::SetControlMode(int32 _iControlMode)
 void AABCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	switch (m_eCurrentControlMode)
+	{
+	case EControlMode::DIABLO:
+		if (0.0f < DirectionToMove.SizeSquared())
+		{
+			GetController()->SetControlRotation(FRotationMatrix::MakeFromX(DirectionToMove).Rotator());
+			AddMovementInput(DirectionToMove);
+		}
+		break;
+	}
 }
 
 // Called to bind functionality to input
@@ -79,21 +106,59 @@ void AABCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AABCharacter::UpDown(float m_fNewAxisValue)
 {
-	AddMovementInput(GetActorForwardVector(), m_fNewAxisValue);
+	switch (m_eCurrentControlMode)
+	{
+	case AABCharacter::EControlMode::GTA:
+		AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::X), m_fNewAxisValue);
+		break;
+	case AABCharacter::EControlMode::DIABLO:
+		DirectionToMove.X = m_fNewAxisValue;
+		break;
+	default:
+		break;
+	}
 }
 
 void AABCharacter::LeftRight(float m_fNewAxisValue)
 {
-	AddMovementInput(GetActorRightVector(), m_fNewAxisValue);
+	switch (m_eCurrentControlMode)
+	{
+	case AABCharacter::EControlMode::GTA:
+		AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::Y), m_fNewAxisValue);
+		break;
+	case AABCharacter::EControlMode::DIABLO:
+		DirectionToMove.Y = m_fNewAxisValue;
+		break;
+	default:
+		break;
+	}
 }
 
 void AABCharacter::LookUp(float m_fNewAxisValue)
 {
-	AddControllerPitchInput(m_fNewAxisValue);
+	switch (m_eCurrentControlMode)
+	{
+	case AABCharacter::EControlMode::GTA:
+		AddControllerPitchInput(m_fNewAxisValue);
+		break;
+	case AABCharacter::EControlMode::DIABLO:
+		break;
+	default:
+		break;
+	}
 }
 
 void AABCharacter::Turn(float m_fNewAxisValue)
 {
-	AddControllerYawInput(m_fNewAxisValue);
+	switch (m_eCurrentControlMode)
+	{
+	case AABCharacter::EControlMode::GTA:
+		AddControllerYawInput(m_fNewAxisValue);
+		break;
+	case AABCharacter::EControlMode::DIABLO:
+		break;
+	default:
+		break;
+	}
 }
 

@@ -22,6 +22,18 @@ protected:
 
 	void SetControlMode(int32 _iControlMode);
 
+
+protected:
+	enum class EControlMode
+	{
+		GTA,
+		DIABLO
+	};
+
+	void SetControlMode(EControlMode _eControlMode);
+	EControlMode m_eCurrentControlMode = EControlMode::GTA;
+	FVector DirectionToMove = FVector::ZeroVector;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
