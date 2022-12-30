@@ -34,6 +34,15 @@ protected:
 	EControlMode m_eCurrentControlMode = EControlMode::GTA;
 	FVector DirectionToMove = FVector::ZeroVector;
 
+
+	float m_fArmLengthTo = 0.0f;
+	FRotator ArmRotationTo = FRotator::ZeroRotator;
+	float m_fArmLengthSpeed = 0.0f;
+	float m_fArmRotationSpeed = 0.0f;
+
+
+	FRotator CorrectionTest = FRotator::ZeroRotator;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -53,4 +62,5 @@ private:
 	void LookUp(float m_fNewAxisValue);
 	void Turn(float m_fNewAxisValue);
 
+	void ViewChange();
 };

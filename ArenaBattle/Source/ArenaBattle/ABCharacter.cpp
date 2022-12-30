@@ -2,6 +2,7 @@
 
 
 #include "ABCharacter.h"
+#include "Camera/PlayerCameraManager.h"
 
 // Sets default values
 AABCharacter::AABCharacter()
@@ -32,6 +33,9 @@ AABCharacter::AABCharacter()
 
 	//SetControlMode(0);
 	SetControlMode(EControlMode::GTA);
+	
+	m_fArmLengthSpeed = 3.0f;
+	m_fArmRotationSpeed = 10.0f;
 
 }
 
@@ -48,8 +52,11 @@ void AABCharacter::SetControlMode(EControlMode _eControlMode)
 	switch (m_eCurrentControlMode)
 	{
 	case EControlMode::GTA:
-		m_pSpringArm->TargetArmLength = 450.0f;
-		m_pSpringArm->SetRelativeRotation(FRotator::ZeroRotator);
+		//m_pSpringArm->TargetArmLength = 450.0f;
+		//m_pSpringArm->SetRelativeRotation(FRotator::ZeroRotator);
+		m_fArmLengthTo = 450.0f;
+		
+		
 		m_pSpringArm->bUsePawnControlRotation = true;
 		m_pSpringArm->bInheritPitch = true;
 		m_pSpringArm->bInheritRoll = true;
@@ -66,8 +73,10 @@ void AABCharacter::SetControlMode(EControlMode _eControlMode)
 		GetCharacterMovement()->RotationRate = FRotator(0.0f, 720.0f, 0.0f);
 		break;
 	case EControlMode::DIABLO:
-		m_pSpringArm->TargetArmLength = 800.0f;
-		m_pSpringArm->SetRelativeRotation(FRotator(-45.0f, 0.0f, 0.0f));
+		//m_pSpringArm->TargetArmLength = 800.0f;
+		//m_pSpringArm->SetRelativeRotation(FRotator(-45.0f, 0.0f, 0.0f));
+		m_fArmLengthTo = 800.0f;		
+
 		m_pSpringArm->bUsePawnControlRotation = false;
 		m_pSpringArm->bInheritPitch = false;
 		m_pSpringArm->bInheritYaw = false;
@@ -77,7 +86,7 @@ void AABCharacter::SetControlMode(EControlMode _eControlMode)
 
 		bUseControllerRotationYaw = false;
 		GetCharacterMovement()->bOrientRotationToMovement = false;
-		GetCharacterMovement()->bUseControllerDesiredRotation = false;
+		GetCharacterMovement()->bUseControllerDesiredRotation = true;
 		GetCharacterMovement()->RotationRate = FRotator(0.0f, 720.0f, 0.0f);
 		break;
 	}
@@ -87,6 +96,23 @@ void AABCharacter::SetControlMode(EControlMode _eControlMode)
 void AABCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	// ChangeView Interp Distance
+	m_pSpringArm->TargetArmLength = FMath::FInterpTo(m_pSpringArm->TargetArmLength, m_fArmLengthTo, DeltaTime, m_fArmLengthSpeed);
+	
+
+
+	switch (m_eCurrentControlMode)
+	{
+	case AABCharacter::EControlMode::DIABLO:
+		m_pSpringArm->SetRelativeRotation(FMath::RInterpTo(m_pSpringArm->GetRelativeRotation(), FRotator(-45.0f, 0.0f, 0.0f), DeltaTime, m_fArmRotationSpeed));
+		break;
+	default:
+		break;
+	}
+
+
+	// Rotation 
 	switch (m_eCurrentControlMode)
 	{
 	case EControlMode::DIABLO:
@@ -109,6 +135,8 @@ void AABCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 	PlayerInputComponent->BindAxis(TEXT("Turn"), this, &AABCharacter::Turn);
 	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &AABCharacter::LookUp);
+
+	PlayerInputComponent->BindAction(TEXT("ViewChange"), EInputEvent::IE_Pressed,this, &AABCharacter::ViewChange);
 }
 
 void AABCharacter::UpDown(float m_fNewAxisValue)
@@ -167,5 +195,25 @@ void AABCharacter::Turn(float m_fNewAxisValue)
 	default:
 		break;
 	}
+}
+
+void AABCharacter::ViewChange()
+{
+	
+	switch (m_eCurrentControlMode)
+	{
+	case AABCharacter::EControlMode::GTA:
+		m_pSpringArm->SetRelativeRotation(GetController()->GetControlRotation());
+		GetController()->SetControlRotation(GetActorRotation());
+		SetControlMode(EControlMode::DIABLO);
+		break;
+	case AABCharacter::EControlMode::DIABLO:
+		GetController()->SetControlRotation(m_pSpringArm->GetRelativeRotation());
+		SetControlMode(EControlMode::GTA);
+		break;
+	default:
+		break;
+	}
+
 }
 
