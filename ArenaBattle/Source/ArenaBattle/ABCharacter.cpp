@@ -37,6 +37,8 @@ AABCharacter::AABCharacter()
 	m_fArmLengthSpeed = 3.0f;
 	m_fArmRotationSpeed = 10.0f;
 
+
+	GetCharacterMovement()->JumpZVelocity = 800.0f;
 }
 
 // Called when the game starts or when spawned
@@ -137,6 +139,9 @@ void AABCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &AABCharacter::LookUp);
 
 	PlayerInputComponent->BindAction(TEXT("ViewChange"), EInputEvent::IE_Pressed,this, &AABCharacter::ViewChange);
+
+
+	PlayerInputComponent->BindAction(TEXT("JUMP"), EInputEvent::IE_Pressed, this, &AABCharacter::Jump);
 }
 
 void AABCharacter::UpDown(float m_fNewAxisValue)
