@@ -7,6 +7,10 @@ UABAnimInstance::UABAnimInstance()
 {
 	m_fCurrentPawnSpeed = 0.0f;
 	m_bIsInAir = false;
+	static ConstructorHelpers::FObjectFinder<UAnimMontage>
+		ATTACK_MONTAGE(TEXT("/Game/Book/Animations/SK_Mannequin_Skeleton_Montage.SK_Mannequin_Skeleton_Montage"));
+	if (ATTACK_MONTAGE.Succeeded())
+		m_pAttackMontange = ATTACK_MONTAGE.Object;
 }
 
 void UABAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
@@ -21,5 +25,13 @@ void UABAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 		{
 			m_bIsInAir = Character->GetMovementComponent()->IsFalling();
 		}
+	}
+}
+
+void UABAnimInstance::PlayAttackMontage()
+{
+	if (!Montage_IsPlaying(m_pAttackMontange))
+	{
+		Montage_Play(m_pAttackMontange, 1.0f);
 	}
 }

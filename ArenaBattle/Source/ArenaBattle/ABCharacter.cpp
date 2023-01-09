@@ -3,6 +3,7 @@
 
 #include "ABCharacter.h"
 #include "Camera/PlayerCameraManager.h"
+#include "ABAnimInstance.h"
 
 // Sets default values
 AABCharacter::AABCharacter()
@@ -139,7 +140,7 @@ void AABCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &AABCharacter::LookUp);
 
 	PlayerInputComponent->BindAction(TEXT("ViewChange"), EInputEvent::IE_Pressed,this, &AABCharacter::ViewChange);
-
+	PlayerInputComponent->BindAction(TEXT("Attack"), EInputEvent::IE_Pressed, this, &AABCharacter::Attack);
 
 	PlayerInputComponent->BindAction(TEXT("JUMP"), EInputEvent::IE_Pressed, this, &AABCharacter::Jump);
 }
@@ -220,5 +221,12 @@ void AABCharacter::ViewChange()
 		break;
 	}
 
+}
+
+void AABCharacter::Attack()
+{
+	auto pAnimInstance = Cast<UABAnimInstance>(GetMesh()->GetAnimInstance());
+	if (nullptr == pAnimInstance) return;
+	pAnimInstance->PlayAttackMontage();
 }
 

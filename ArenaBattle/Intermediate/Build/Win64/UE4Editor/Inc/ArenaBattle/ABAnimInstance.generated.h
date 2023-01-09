@@ -60,7 +60,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UABAnimInstance); \
 
 #define ArenaBattle_Source_ArenaBattle_ABAnimInstance_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__m_fCurrentPawnSpeed() { return STRUCT_OFFSET(UABAnimInstance, m_fCurrentPawnSpeed); } \
-	FORCEINLINE static uint32 __PPO__m_bIsInAir() { return STRUCT_OFFSET(UABAnimInstance, m_bIsInAir); }
+	FORCEINLINE static uint32 __PPO__m_bIsInAir() { return STRUCT_OFFSET(UABAnimInstance, m_bIsInAir); } \
+	FORCEINLINE static uint32 __PPO__m_pAttackMontange() { return STRUCT_OFFSET(UABAnimInstance, m_pAttackMontange); }
 
 
 #define ArenaBattle_Source_ArenaBattle_ABAnimInstance_h_12_PROLOG
