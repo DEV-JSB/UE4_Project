@@ -40,6 +40,8 @@ AABCharacter::AABCharacter()
 
 
 	GetCharacterMovement()->JumpZVelocity = 800.0f;
+
+	m_bIsAttacking = false;
 }
 
 // Called when the game starts or when spawned
@@ -126,6 +128,16 @@ void AABCharacter::Tick(float DeltaTime)
 		}
 		break;
 	}
+}
+
+void AABCharacter::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+	m_pABAnim = Cast<UABAnimInstance>(GetMesh()->GetAnimInstance());
+	ABCHECK(m_pABAnim);
+
+	m_pABAnim->OnMontageEnded.AddDynamic(this, &AABCharacter::OnAttackMontageEnded);
+
 }
 
 // Called to bind functionality to input
@@ -225,8 +237,16 @@ void AABCharacter::ViewChange()
 
 void AABCharacter::Attack()
 {
-	auto pAnimInstance = Cast<UABAnimInstance>(GetMesh()->GetAnimInstance());
-	if (nullptr == pAnimInstance) return;
-	pAnimInstance->PlayAttackMontage();
+	if (m_bIsAttacking) return;
+
+	m_pABAnim->PlayAttackMontage();
+
+	m_bIsAttacking = true;
+}
+
+void AABCharacter::OnAttackMontageEnded(UAnimMontage* _pMontage, bool _bInterrupted)
+{
+	ABCHECK(m_bIsAttacking);
+	m_bIsAttacking = false;
 }
 

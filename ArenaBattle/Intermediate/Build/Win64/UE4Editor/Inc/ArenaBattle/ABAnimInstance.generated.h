@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define ARENABATTLE_ABAnimInstance_generated_h
 
 #define ArenaBattle_Source_ArenaBattle_ABAnimInstance_h_15_SPARSE_DATA
-#define ArenaBattle_Source_ArenaBattle_ABAnimInstance_h_15_RPC_WRAPPERS
-#define ArenaBattle_Source_ArenaBattle_ABAnimInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define ArenaBattle_Source_ArenaBattle_ABAnimInstance_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execAnimNotify_AttackHitCheck);
+
+
+#define ArenaBattle_Source_ArenaBattle_ABAnimInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAnimNotify_AttackHitCheck);
+
+
 #define ArenaBattle_Source_ArenaBattle_ABAnimInstance_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUABAnimInstance(); \

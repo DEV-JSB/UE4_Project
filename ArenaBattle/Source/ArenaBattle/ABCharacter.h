@@ -46,9 +46,11 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+	
+	virtual void PostInitializeComponents() override;
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
 
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 		USpringArmComponent* m_pSpringArm;
@@ -64,4 +66,13 @@ private:
 
 	void ViewChange();
 	void Attack();
+
+	UFUNCTION()
+	void OnAttackMontageEnded(UAnimMontage* _pMontage, bool _bInterrupted);
+private:
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+	bool m_bIsAttacking;
+
+	UPROPERTY()
+	class UABAnimInstance* m_pABAnim;
 };

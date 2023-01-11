@@ -21,6 +21,9 @@ public:
 
 	void PlayAttackMontage();
 private:
+
+	UFUNCTION()
+		void AnimNotify_AttackHitCheck();
 	// 블루 프린트에서 접근이 가능하게끔 설정
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category = Pawn,Meta = (AllowPrivateAccess = true))
 	float m_fCurrentPawnSpeed;
