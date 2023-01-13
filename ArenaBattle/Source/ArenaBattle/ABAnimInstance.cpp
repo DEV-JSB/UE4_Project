@@ -10,7 +10,7 @@ UABAnimInstance::UABAnimInstance()
 	static ConstructorHelpers::FObjectFinder<UAnimMontage>
 		ATTACK_MONTAGE(TEXT("/Game/Book/Animations/SK_Mannequin_Skeleton_Montage.SK_Mannequin_Skeleton_Montage"));
 	if (ATTACK_MONTAGE.Succeeded())
-		m_pAttackMontange = ATTACK_MONTAGE.Object;
+		AttackMontage = ATTACK_MONTAGE.Object;
 }
 
 void UABAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
@@ -27,13 +27,30 @@ void UABAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 		}
 	}
 }
-
 void UABAnimInstance::PlayAttackMontage()
 {
-		Montage_Play(m_pAttackMontange, 1.0f);
+	Montage_Play(AttackMontage, 0.6f);
+}
+
+void UABAnimInstance::JumpToAttackMontageSection(int32 NewSection)
+{
+	bool Test = Montage_IsPlaying(AttackMontage);
+	ABCHECK(Montage_IsPlaying(AttackMontage));
+	Montage_JumpToSection(GetAttackMontageSectionName(NewSection),AttackMontage);
 }
 
 void UABAnimInstance::AnimNotify_AttackHitCheck()
 {
-	ABLOG_S(Warning);
+	OnAttackHitCheck.Broadcast();
+}
+
+void UABAnimInstance::AnimNotify_NextAttackCheck()
+{
+	OnNextAttackCheck.Broadcast();
+}
+
+FName UABAnimInstance::GetAttackMontageSectionName(int32 _iSection)
+{
+	ABCHECK(FMath::IsWithinInclusive<int32>(_iSection, 1, 4), NAME_None);
+	return FName(*FString::Printf(TEXT("Attack%d"), _iSection));
 }
