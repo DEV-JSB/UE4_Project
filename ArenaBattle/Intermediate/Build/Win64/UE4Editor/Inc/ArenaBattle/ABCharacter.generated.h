@@ -69,10 +69,6 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AABCharacter); \
 
 #define ArenaBattle_Source_ArenaBattle_ABCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__m_bIsAttacking() { return STRUCT_OFFSET(AABCharacter, m_bIsAttacking); } \
-	FORCEINLINE static uint32 __PPO__m_bCanNextCombo() { return STRUCT_OFFSET(AABCharacter, m_bCanNextCombo); } \
-	FORCEINLINE static uint32 __PPO__m_bIsComboInputOn() { return STRUCT_OFFSET(AABCharacter, m_bIsComboInputOn); } \
-	FORCEINLINE static uint32 __PPO__m_iCurrentCombo() { return STRUCT_OFFSET(AABCharacter, m_iCurrentCombo); } \
-	FORCEINLINE static uint32 __PPO__m_iMaxCombo() { return STRUCT_OFFSET(AABCharacter, m_iMaxCombo); } \
 	FORCEINLINE static uint32 __PPO__m_pABAnim() { return STRUCT_OFFSET(AABCharacter, m_pABAnim); }
 
 

@@ -1,24 +1,22 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Git\UE4_Project).
+  Parsing headers for ArenaBattleEditor
+    Running UnrealHeaderTool "D:\Git\UE4_Project\ArenaBattle\ArenaBattle.uproject" "D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Admin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for ArenaBattleEditor in 27.1922477 seconds
+  Deleted hot-reload file: D:\Git\UE4_Project\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0001.dll
+  Deleted hot-reload file: D:\Git\UE4_Project\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0002.dll
+  Deleted hot-reload file: D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0001.lib
+  Deleted hot-reload file: D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0002.lib
   Building ArenaBattleEditor...
   Using Visual Studio 2019 14.29.30146 toolchain (D:\VS2019\VC\Tools\MSVC\14.29.30133) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 16 actions with 12 processes...
-    [1/16] ArenaBattle.cpp
-    [2/16] ABPlayerController.cpp
-    [3/16] ABAnimInstance.cpp
-    [4/16] ABPawn.cpp
-    [5/16] ABGameMode.cpp
-    [6/16] ABAnimInstance.gen.cpp
-    [7/16] ABPawn.gen.cpp
-    [8/16] ABCharacter.gen.cpp
-    [9/16] ABPlayerController.gen.cpp
-    [10/16] ABGameMode.gen.cpp
-    [11/16] Fountain.cpp
-    [12/16] ABCharacter.cpp
-    [13/16] Fountain.gen.cpp
-    [14/16] UE4Editor-ArenaBattle-0003.lib
-       Creating library D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0003.lib and object D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0003.exp
-    [15/16] UE4Editor-ArenaBattle-0003.dll
-       Creating library D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0003.suppressed.lib and object D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0003.suppressed.exp
-    [16/16] ArenaBattleEditor.target
-  Total time in Parallel executor: 452.28 seconds
-  Total execution time: 458.11 seconds
+  Building 7 actions with 12 processes...
+    [1/7] ArenaBattle.init.gen.cpp
+    [2/7] ABAnimInstance.cpp
+    [3/7] ABAnimInstance.gen.cpp
+    [4/7] ABCharacter.cpp
+    [5/7] UE4Editor-ArenaBattle.lib
+       Creating library D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle.lib and object D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle.exp
+    [6/7] UE4Editor-ArenaBattle.dll
+       Creating library D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle.suppressed.lib and object D:\Git\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle.suppressed.exp
+    [7/7] ArenaBattleEditor.target
+  Total time in Parallel executor: 189.67 seconds
+  Total execution time: 221.44 seconds

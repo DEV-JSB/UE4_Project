@@ -69,27 +69,9 @@ private:
 
 	UFUNCTION()
 	void OnAttackMontageEnded(UAnimMontage* _pMontage, bool _bInterrupted);
-
-
-	void AttackStartComboState();
-	void AttackEndComboState();
-
 private:
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
 	bool m_bIsAttacking;
-
-	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
-	bool m_bCanNextCombo;
-
-	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
-	bool m_bIsComboInputOn;
-
-	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
-	int32 m_iCurrentCombo;
-
-	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
-	int32 m_iMaxCombo;
-
 
 	UPROPERTY()
 	class UABAnimInstance* m_pABAnim;

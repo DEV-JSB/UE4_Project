@@ -42,9 +42,6 @@ AABCharacter::AABCharacter()
 	GetCharacterMovement()->JumpZVelocity = 800.0f;
 
 	m_bIsAttacking = false;
-
-	m_iMaxCombo = 4;
-	AttackEndComboState();
 }
 
 // Called when the game starts or when spawned
@@ -137,21 +134,9 @@ void AABCharacter::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
 	m_pABAnim = Cast<UABAnimInstance>(GetMesh()->GetAnimInstance());
-	ABCHECK(nullptr != m_pABAnim);
+	ABCHECK(m_pABAnim);
 
 	m_pABAnim->OnMontageEnded.AddDynamic(this, &AABCharacter::OnAttackMontageEnded);
-
-
-	m_pABAnim->OnNextAttackCheck.AddLambda([this]()-> void {
-		ABLOG(Warning, TEXT("OnNextAttackCheck"));
-		m_bCanNextCombo = false;
-		if (m_bIsComboInputOn)
-		{
-			AttackStartComboState();
-			m_pABAnim->JumpToAttackMontageSection(m_iCurrentCombo);
-		}
-		});
-
 
 }
 
@@ -252,45 +237,16 @@ void AABCharacter::ViewChange()
 
 void AABCharacter::Attack()
 {
-	if (m_bIsAttacking)
-	{
-		ABCHECK(FMath::IsWithinInclusive<int32>(m_iCurrentCombo, 1, m_iMaxCombo));
-		if (m_bCanNextCombo)
-		{
-			m_bIsComboInputOn = true;
-		}
-	}
-	else
-	{
-		ABCHECK(0 == m_iCurrentCombo);
-		AttackStartComboState();
-		m_pABAnim->PlayAttackMontage();
-		m_pABAnim->JumpToAttackMontageSection(m_iCurrentCombo);
-		m_bIsAttacking = true;
-	}
+	if (m_bIsAttacking) return;
+
+	m_pABAnim->PlayAttackMontage();
+
+	m_bIsAttacking = true;
 }
 
 void AABCharacter::OnAttackMontageEnded(UAnimMontage* _pMontage, bool _bInterrupted)
 {
 	ABCHECK(m_bIsAttacking);
-	ABCHECK(m_iCurrentCombo > 0);
 	m_bIsAttacking = false;
-	AttackEndComboState();
-}
-
-void AABCharacter::AttackStartComboState()
-{
-	m_bCanNextCombo = true;
-	m_bIsComboInputOn = false;
-	ABCHECK(FMath::IsWithinInclusive<int32>(m_iCurrentCombo, 0, m_iMaxCombo - 1));
-	m_iCurrentCombo = FMath::Clamp<int32>(m_iCurrentCombo + 1, 1, m_iMaxCombo);
-}
-
-void AABCharacter::AttackEndComboState()
-{
-
-	m_bIsComboInputOn = false;
-	m_bCanNextCombo = false;
-	m_iCurrentCombo = 0;
 }
 
