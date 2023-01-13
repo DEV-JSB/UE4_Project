@@ -20,6 +20,13 @@ void EmptyLinkFunctionForGeneratedCodeABAnimInstance() {}
 	UPackage* Z_Construct_UPackage__Script_ArenaBattle();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(UABAnimInstance::execAnimNotify_NextAttackCheck)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->AnimNotify_NextAttackCheck();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UABAnimInstance::execAnimNotify_AttackHitCheck)
 	{
 		P_FINISH;
@@ -32,6 +39,7 @@ void EmptyLinkFunctionForGeneratedCodeABAnimInstance() {}
 		UClass* Class = UABAnimInstance::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "AnimNotify_AttackHitCheck", &UABAnimInstance::execAnimNotify_AttackHitCheck },
+			{ "AnimNotify_NextAttackCheck", &UABAnimInstance::execAnimNotify_NextAttackCheck },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -54,6 +62,30 @@ void EmptyLinkFunctionForGeneratedCodeABAnimInstance() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UABAnimInstance_AnimNotify_AttackHitCheck_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UABAnimInstance_AnimNotify_NextAttackCheck_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UABAnimInstance_AnimNotify_NextAttackCheck_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// -> ?\xcc\xb0\xcd\xb5??\xd6\xbe????? ????\n" },
+		{ "ModuleRelativePath", "ABAnimInstance.h" },
+		{ "ToolTip", "-> ?\xcc\xb0\xcd\xb5??\xd6\xbe????? ????" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UABAnimInstance_AnimNotify_NextAttackCheck_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UABAnimInstance, nullptr, "AnimNotify_NextAttackCheck", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UABAnimInstance_AnimNotify_NextAttackCheck_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UABAnimInstance_AnimNotify_NextAttackCheck_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UABAnimInstance_AnimNotify_NextAttackCheck()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UABAnimInstance_AnimNotify_NextAttackCheck_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -91,6 +123,7 @@ void EmptyLinkFunctionForGeneratedCodeABAnimInstance() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UABAnimInstance_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UABAnimInstance_AnimNotify_AttackHitCheck, "AnimNotify_AttackHitCheck" }, // 2274510635
+		{ &Z_Construct_UFunction_UABAnimInstance_AnimNotify_NextAttackCheck, "AnimNotify_NextAttackCheck" }, // 3993655156
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABAnimInstance_Statics::Class_MetaDataParams[] = {
@@ -162,7 +195,7 @@ void EmptyLinkFunctionForGeneratedCodeABAnimInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UABAnimInstance, 3786707442);
+	IMPLEMENT_CLASS(UABAnimInstance, 2077135173);
 	template<> ARENABATTLE_API UClass* StaticClass<UABAnimInstance>()
 	{
 		return UABAnimInstance::StaticClass();

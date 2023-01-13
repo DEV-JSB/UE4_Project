@@ -6,6 +6,9 @@
 #include "Animation/AnimInstance.h"
 #include "ABAnimInstance.generated.h"
 
+DECLARE_MULTICAST_DELEGATE(FOnNextAttackCheckDelegate);
+DECLARE_MULTICAST_DELEGATE(FOnAttackHitCheckDelegate);
+
 /**
  * 
  */
@@ -20,10 +23,23 @@ public:
 	virtual void NativeUpdateAnimation(float DeltaSeconds) override;
 
 	void PlayAttackMontage();
-private:
 
+	void JumpToAttackMontageSection(int32 _iNewSectionIndex);
+
+
+public:
+	FOnNextAttackCheckDelegate OnNextAttackCheck;
+	FOnAttackHitCheckDelegate OnAttackHitCheck;
+private:
 	UFUNCTION()
-		void AnimNotify_AttackHitCheck();
+	void AnimNotify_AttackHitCheck();
+
+	// -> 이것도왜쓰는지 정리
+	UFUNCTION()
+	void AnimNotify_NextAttackCheck();
+
+	FName GetAttackMontageSectionName(int32 _iSectionIdx);
+private:
 	// 블루 프린트에서 접근이 가능하게끔 설정
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category = Pawn,Meta = (AllowPrivateAccess = true))
 	float m_fCurrentPawnSpeed;
