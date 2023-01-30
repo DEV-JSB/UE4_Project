@@ -4,6 +4,7 @@
 #include "ABCharacter.h"
 #include "Camera/PlayerCameraManager.h"
 #include "ABAnimInstance.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values
 AABCharacter::AABCharacter()
@@ -49,6 +50,9 @@ AABCharacter::AABCharacter()
 
 
 	GetCapsuleComponent()->SetCollisionProfileName(TEXT("ABCharacter"));
+
+	m_fAttackRange = 200.0f;
+	m_fAttackRadius = 50.0f;
 
 }
 
@@ -156,6 +160,21 @@ void AABCharacter::PostInitializeComponents()
 		}
 		});
 
+	m_pABAnim->OnAttackHitCheck.AddUObject(this, &AABCharacter::AttackCheck);
+}
+
+float AABCharacter::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+{
+	float FinalDamage = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+	ABLOG(Warning, TEXT("Actor : %s took Damage : %f"), *GetName(), FinalDamage);
+
+	if (FinalDamage > 0.0f)
+	{
+		m_pABAnim->SetDeadAnim();
+		SetActorEnableCollision(false);
+	}
+
+	return FinalDamage;
 }
 
 // Called to bind functionality to input
@@ -175,42 +194,42 @@ void AABCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAction(TEXT("JUMP"), EInputEvent::IE_Pressed, this, &AABCharacter::Jump);
 }
 
-void AABCharacter::UpDown(float m_fNewAxisValue)
+void AABCharacter::UpDown(float _fNewAxisValue)
 {
 	switch (m_eCurrentControlMode)
 	{
 	case AABCharacter::EControlMode::GTA:
-		AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::X), m_fNewAxisValue);
+		AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::X), _fNewAxisValue);
 		break;
 	case AABCharacter::EControlMode::DIABLO:
-		DirectionToMove.X = m_fNewAxisValue;
+		DirectionToMove.X = _fNewAxisValue;
 		break;
 	default:
 		break;
 	}
 }
 
-void AABCharacter::LeftRight(float m_fNewAxisValue)
+void AABCharacter::LeftRight(float _fNewAxisValue)
 {
 	switch (m_eCurrentControlMode)
 	{
 	case AABCharacter::EControlMode::GTA:
-		AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::Y), m_fNewAxisValue);
+		AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::Y), _fNewAxisValue);
 		break;
 	case AABCharacter::EControlMode::DIABLO:
-		DirectionToMove.Y = m_fNewAxisValue;
+		DirectionToMove.Y = _fNewAxisValue;
 		break;
 	default:
 		break;
 	}
 }
 
-void AABCharacter::LookUp(float m_fNewAxisValue)
+void AABCharacter::LookUp(float _fNewAxisValue)
 {
 	switch (m_eCurrentControlMode)
 	{
 	case AABCharacter::EControlMode::GTA:
-		AddControllerPitchInput(m_fNewAxisValue);
+		AddControllerPitchInput(_fNewAxisValue);
 		break;
 	case AABCharacter::EControlMode::DIABLO:
 		break;
@@ -219,12 +238,12 @@ void AABCharacter::LookUp(float m_fNewAxisValue)
 	}
 }
 
-void AABCharacter::Turn(float m_fNewAxisValue)
+void AABCharacter::Turn(float _fNewAxisValue)
 {
 	switch (m_eCurrentControlMode)
 	{
 	case AABCharacter::EControlMode::GTA:
-		AddControllerYawInput(m_fNewAxisValue);
+		AddControllerYawInput(_fNewAxisValue);
 		break;
 	case AABCharacter::EControlMode::DIABLO:
 		break;
@@ -295,5 +314,50 @@ void AABCharacter::AttackEndComboState()
 	m_bCanNextCombo = false;
 	m_iCurrentCombo = 0;
 
+}
+
+void AABCharacter::AttackCheck()
+{
+	FHitResult HitResult;
+	FCollisionQueryParams Params(NAME_None, false, this);
+	bool bResult = GetWorld()->SweepSingleByChannel(HitResult
+													, GetActorLocation()
+													, GetActorLocation() + GetActorForwardVector() * m_fAttackRange
+													, FQuat::Identity
+													, ECollisionChannel::ECC_GameTraceChannel2
+													, FCollisionShape::MakeSphere(m_fAttackRadius)
+													, Params);
+
+#if ENABLE_DRAW_DEBUG
+	FVector TraceVec = GetActorForwardVector() * m_fAttackRange;
+	FVector Center = GetActorLocation() + TraceVec * 0.5f;
+	float HalfHeight = m_fAttackRange * 0.5f + m_fAttackRadius;
+	FQuat CapsuleRot = FRotationMatrix::MakeFromZ(TraceVec).ToQuat();
+	FColor DrawColor = bResult ? FColor::Green : FColor::Red;
+	float DebugLifeTime = 5.0f;
+
+	DrawDebugCapsule(GetWorld()
+								, Center
+								, HalfHeight
+								, m_fAttackRadius
+								, CapsuleRot
+								, DrawColor
+								, false
+								, DebugLifeTime);
+
+
+
+#endif
+
+	if (bResult)
+	{
+		if (HitResult.Actor.IsValid())
+		{
+			ABLOG(Warning, TEXT("Hit Actor Name : %s"), *HitResult.Actor->GetName());
+
+			FDamageEvent DamageEvent;
+			HitResult.Actor->TakeDamage(50.0f, DamageEvent, GetController(), this);
+		}
+	}
 }
 

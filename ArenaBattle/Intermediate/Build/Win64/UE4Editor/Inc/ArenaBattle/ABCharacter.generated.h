@@ -73,7 +73,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AABCharacter); \
 	FORCEINLINE static uint32 __PPO__m_bIsComboInputOn() { return STRUCT_OFFSET(AABCharacter, m_bIsComboInputOn); } \
 	FORCEINLINE static uint32 __PPO__m_iCurrentCombo() { return STRUCT_OFFSET(AABCharacter, m_iCurrentCombo); } \
 	FORCEINLINE static uint32 __PPO__m_iMaxCombo() { return STRUCT_OFFSET(AABCharacter, m_iMaxCombo); } \
-	FORCEINLINE static uint32 __PPO__m_pABAnim() { return STRUCT_OFFSET(AABCharacter, m_pABAnim); }
+	FORCEINLINE static uint32 __PPO__m_pABAnim() { return STRUCT_OFFSET(AABCharacter, m_pABAnim); } \
+	FORCEINLINE static uint32 __PPO__m_fAttackRange() { return STRUCT_OFFSET(AABCharacter, m_fAttackRange); } \
+	FORCEINLINE static uint32 __PPO__m_fAttackRadius() { return STRUCT_OFFSET(AABCharacter, m_fAttackRadius); }
 
 
 #define ArenaBattle_Source_ArenaBattle_ABCharacter_h_9_PROLOG
