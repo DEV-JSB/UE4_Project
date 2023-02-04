@@ -2,6 +2,7 @@
 
 
 #include "ABCharacter.h"
+#include "ABWeapon.h"
 #include "Camera/PlayerCameraManager.h"
 #include "ABAnimInstance.h"
 #include "DrawDebugHelpers.h"
@@ -54,6 +55,20 @@ AABCharacter::AABCharacter()
 	m_fAttackRange = 200.0f;
 	m_fAttackRadius = 50.0f;
 
+	/*FName WeaponSocket(TEXT("hand_rSocket"));
+	if (GetMesh()->DoesSocketExist(WeaponSocket))
+	{
+		m_pWeapon = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("WEAPON"));
+		static ConstructorHelpers::FObjectFinder<USkeletalMesh>
+			SK_WEAPON(TEXT("/Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight"));
+		if (SK_WEAPON.Succeeded())
+		{
+			m_pWeapon->SetSkeletalMesh(SK_WEAPON.Object);
+
+		}
+		m_pWeapon->SetupAttachment(GetMesh(), WeaponSocket);
+	}*/
+
 }
 
 // Called when the game starts or when spawned
@@ -61,6 +76,14 @@ void AABCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	/*FName WeaponSocket(TEXT("hand_rSocket"));
+	auto CurWeapon = GetWorld()->SpawnActor<AABWeapon>(FVector::ZeroVector, FRotator::ZeroRotator);
+
+	if (nullptr != CurWeapon)
+	{
+		CurWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponSocket);
+	}*/
+
 }
 
 void AABCharacter::SetControlMode(EControlMode _eControlMode)
@@ -192,6 +215,23 @@ void AABCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAction(TEXT("Attack"), EInputEvent::IE_Pressed, this, &AABCharacter::Attack);
 
 	PlayerInputComponent->BindAction(TEXT("JUMP"), EInputEvent::IE_Pressed, this, &AABCharacter::Jump);
+}
+
+bool AABCharacter::CanSetWeapon()
+{
+	return (nullptr == CurrentWeapon);
+}
+
+void AABCharacter::SetWeapon(AABWeapon* NewWeapon)
+{
+	ABCHECK(nullptr != NewWeapon && nullptr == CurrentWeapon);
+	FName WeaponSocket(TEXT("hand_rSocket"));
+	if (nullptr != NewWeapon)
+	{
+		NewWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponSocket);
+		NewWeapon->SetOwner(this);
+		CurrentWeapon = NewWeapon;
+	}
 }
 
 void AABCharacter::UpDown(float _fNewAxisValue)

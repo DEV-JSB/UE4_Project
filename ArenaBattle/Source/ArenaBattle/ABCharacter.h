@@ -53,11 +53,20 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	bool CanSetWeapon();
+	void SetWeapon(class AABWeapon* NewWeapon);
+
+	UPROPERTY(VisibleAnywhere, Category = Weapon)
+		class AABWeapon* CurrentWeapon;
+
 
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 		USpringArmComponent* m_pSpringArm;
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 		UCameraComponent* m_pCamera;
+
+	UPROPERTY(VisibleAnywhere, Category = Weapon)
+		USkeletalMeshComponent* m_pWeapon;
 
 private:
 	void UpDown(float _fNewAxisValue);
