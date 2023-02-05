@@ -3,6 +3,7 @@
 
 #include "ABCharacter.h"
 #include "ABWeapon.h"
+#include "ABCharacterStatComponent.h"
 #include "Camera/PlayerCameraManager.h"
 #include "ABAnimInstance.h"
 #include "DrawDebugHelpers.h"
@@ -15,6 +16,8 @@ AABCharacter::AABCharacter()
 
 	m_pSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SPRINGARM"));
 	m_pCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("CAMERA"));
+
+	CharacterStat = CreateDefaultSubobject<UABCharacterStatComponent>(TEXT("CHARACTERSTAT"));
 
 	m_pSpringArm->SetupAttachment(GetCapsuleComponent());
 	m_pCamera->SetupAttachment(m_pSpringArm);

@@ -199,6 +199,8 @@ D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplaySta
 D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABCharacter.generated.h
 D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\ABWeapon.h
 D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABWeapon.generated.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\ABCharacterStatComponent.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABCharacterStatComponent.generated.h
 D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\ABAnimInstance.h
 D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABAnimInstance.generated.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
