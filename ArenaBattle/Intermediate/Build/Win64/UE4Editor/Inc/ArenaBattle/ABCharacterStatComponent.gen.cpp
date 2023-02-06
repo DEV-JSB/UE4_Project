@@ -31,6 +31,15 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterStatComponent() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Level_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Level;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentHP_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CurrentHP;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -46,6 +55,26 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterStatComponent() {}
 		{ "ModuleRelativePath", "ABCharacterStatComponent.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_Level_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Stat" },
+		{ "ModuleRelativePath", "ABCharacterStatComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_Level = { "Level", nullptr, (EPropertyFlags)0x0040000000000801, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UABCharacterStatComponent, Level), METADATA_PARAMS(Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_Level_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_Level_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_CurrentHP_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Stat" },
+		{ "ModuleRelativePath", "ABCharacterStatComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_CurrentHP = { "CurrentHP", nullptr, (EPropertyFlags)0x0040000000022801, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UABCharacterStatComponent, CurrentHP), METADATA_PARAMS(Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_CurrentHP_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_CurrentHP_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UABCharacterStatComponent_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_Level,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_CurrentHP,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UABCharacterStatComponent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UABCharacterStatComponent>::IsAbstract,
 	};
@@ -55,11 +84,11 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterStatComponent() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_UABCharacterStatComponent_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_UABCharacterStatComponent_Statics::PropPointers),
 		0,
 		0x00B000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_UABCharacterStatComponent_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UABCharacterStatComponent_Statics::Class_MetaDataParams))
@@ -73,7 +102,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterStatComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UABCharacterStatComponent, 536827453);
+	IMPLEMENT_CLASS(UABCharacterStatComponent, 42295559);
 	template<> ARENABATTLE_API UClass* StaticClass<UABCharacterStatComponent>()
 	{
 		return UABCharacterStatComponent::StaticClass();

@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 	ARENABATTLE_API UClass* Z_Construct_UClass_UABCharacterStatComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	ARENABATTLE_API UClass* Z_Construct_UClass_UABAnimInstance_NoRegister();
 // End Cross Module References
@@ -111,6 +112,10 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_pCamera;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HPBarWidget_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HPBarWidget;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_pWeapon_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_pWeapon;
@@ -199,6 +204,14 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABCharacter_Statics::NewProp_m_pCamera = { "m_pCamera", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABCharacter, m_pCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABCharacter_Statics::NewProp_m_pCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABCharacter_Statics::NewProp_m_pCamera_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABCharacter_Statics::NewProp_HPBarWidget_MetaData[] = {
+		{ "Category", "UI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ABCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABCharacter_Statics::NewProp_HPBarWidget = { "HPBarWidget", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABCharacter, HPBarWidget), Z_Construct_UClass_UWidgetComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABCharacter_Statics::NewProp_HPBarWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABCharacter_Statics::NewProp_HPBarWidget_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABCharacter_Statics::NewProp_m_pWeapon_MetaData[] = {
 		{ "Category", "Weapon" },
 		{ "EditInline", "true" },
@@ -285,6 +298,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacter_Statics::NewProp_CharacterStat,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacter_Statics::NewProp_m_pSpringArm,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacter_Statics::NewProp_m_pCamera,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacter_Statics::NewProp_HPBarWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacter_Statics::NewProp_m_pWeapon,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacter_Statics::NewProp_m_bIsAttacking,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacter_Statics::NewProp_m_bCanNextCombo,
@@ -322,7 +336,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABCharacter, 362634101);
+	IMPLEMENT_CLASS(AABCharacter, 472912162);
 	template<> ARENABATTLE_API UClass* StaticClass<AABCharacter>()
 	{
 		return AABCharacter::StaticClass();

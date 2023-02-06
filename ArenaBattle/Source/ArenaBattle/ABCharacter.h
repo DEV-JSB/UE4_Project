@@ -67,6 +67,10 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 		UCameraComponent* m_pCamera;
 
+	UPROPERTY(VisibleAnywhere, Category = UI)
+		class UWidgetComponent* HPBarWidget;
+		
+
 	UPROPERTY(VisibleAnywhere, Category = Weapon)
 		USkeletalMeshComponent* m_pWeapon;
 
@@ -108,4 +112,8 @@ private:
 	float m_fAttackRange;
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
 	float m_fAttackRadius;
+
+
+
+
 };
