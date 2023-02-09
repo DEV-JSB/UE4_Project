@@ -58,7 +58,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AABAIController); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AABAIController)
 
 
-#define ArenaBattle_Source_ArenaBattle_ABAIController_h_15_PRIVATE_PROPERTY_OFFSET
+#define ArenaBattle_Source_ArenaBattle_ABAIController_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__BTAsset() { return STRUCT_OFFSET(AABAIController, BTAsset); } \
+	FORCEINLINE static uint32 __PPO__BBAsset() { return STRUCT_OFFSET(AABAIController, BBAsset); }
+
+
 #define ArenaBattle_Source_ArenaBattle_ABAIController_h_12_PROLOG
 #define ArenaBattle_Source_ArenaBattle_ABAIController_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

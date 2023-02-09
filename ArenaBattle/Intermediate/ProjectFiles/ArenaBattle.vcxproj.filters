@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ArenaBattle.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9DE75AD4-02A3-483D-BA9F-466780F05606}</UniqueIdentifier>
+      <UniqueIdentifier>{684381A8-F3DB-4A00-AECA-5AAB95D247B3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaBattle.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{6C16374B-41D7-40B9-B271-A1B4490AB329}</UniqueIdentifier>
+      <UniqueIdentifier>{66F7E7B3-962C-4AA3-BA41-59B7A82F1CB2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ArenaBattle">
-      <UniqueIdentifier>{117F432A-C608-4356-929C-C5ECB5844B40}</UniqueIdentifier>
+      <UniqueIdentifier>{261E68F0-76D6-4E2F-936B-D9EBDAA6B33E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ArenaBattle\ABAIController.cpp">
       <Filter>Source\ArenaBattle</Filter>
@@ -105,6 +105,12 @@
       <Filter>Source\ArenaBattle</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ArenaBattle\ArenaBattle.h">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ArenaBattle\BTTask_FindPatrolPos.cpp">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArenaBattle\BTTask_FindPatrolPos.h">
       <Filter>Source\ArenaBattle</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ArenaBattle\Fountain.cpp">
