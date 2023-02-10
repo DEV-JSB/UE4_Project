@@ -6,6 +6,9 @@
 #include "GameFramework/Character.h"
 #include "ABCharacter.generated.h"
 
+
+DECLARE_MULTICAST_DELEGATE(FOnAttackEndDelegate);
+
 UCLASS()
 class ARENABATTLE_API AABCharacter : public ACharacter
 {
@@ -27,7 +30,8 @@ protected:
 	enum class EControlMode
 	{
 		GTA,
-		DIABLO
+		DIABLO,
+		NPC
 	};
 
 	void SetControlMode(EControlMode _eControlMode);
@@ -50,6 +54,9 @@ public:
 	virtual void PostInitializeComponents() override;
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent
 		, class AController* EventInstigator, AActor* DamageCauser) override;
+
+	virtual void PossessedBy(AController* NewController)override;
+
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
@@ -82,7 +89,6 @@ private:
 	void Turn(float _fNewAxisValue);
 
 	void ViewChange();
-	void Attack();
 
 	UFUNCTION()
 	void OnAttackMontageEnded(UAnimMontage* _pMontage, bool _bInterrupted);
@@ -113,7 +119,8 @@ private:
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
 	float m_fAttackRadius;
 
-
-
+public:
+	void Attack();
+	FOnAttackEndDelegate OnAttackEnd;
 
 };
