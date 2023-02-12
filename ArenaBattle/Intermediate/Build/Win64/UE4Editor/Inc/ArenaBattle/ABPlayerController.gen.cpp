@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ArenaBattle/ABPlayerController.h"
+#include "ArenaBattle/Public/ABPlayerController.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -42,7 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerController() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABPlayerController_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "ABPlayerController.h" },
-		{ "ModuleRelativePath", "ABPlayerController.h" },
+		{ "ModuleRelativePath", "Public/ABPlayerController.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AABPlayerController_Statics::StaticCppClassTypeInfo = {
@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABPlayerController, 562092662);
+	IMPLEMENT_CLASS(AABPlayerController, 1984650531);
 	template<> ARENABATTLE_API UClass* StaticClass<AABPlayerController>()
 	{
 		return AABPlayerController::StaticClass();

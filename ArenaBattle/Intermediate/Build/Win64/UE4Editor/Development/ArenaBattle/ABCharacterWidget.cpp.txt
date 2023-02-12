@@ -1,6 +1,6 @@
 D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\Definitions.ArenaBattle.h
-D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\ABCharacterWidget.h
-D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\ArenaBattle.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Public\ABCharacterWidget.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Public\ArenaBattle.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Public\EngineMinimal.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\CoreUObject.h
@@ -295,7 +295,7 @@ D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropert
 D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
 D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABCharacterWidget.generated.h
-D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\ABCharacterStatComponent.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Public\ABCharacterStatComponent.h
 D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABCharacterStatComponent.generated.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\UMG\Public\Components/ProgressBar.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\Slate\Public\Widgets/Notifications/SProgressBar.h

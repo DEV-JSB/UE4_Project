@@ -1,0 +1,1598 @@
+﻿Log file open, 02/12/23 22:09:10
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: ArenaBattle
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.200082
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cleaning working directory: C:/Users/mvat1/AppData/Local/Temp/UnrealXGEWorkingDir/
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 7 3700X 8-Core Processor             , GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/MVAT/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Engine.ini]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Engine.ini]
+[2023.02.12-13.09.10:272][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Engine.ini]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Engine.ini]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2023.02.12-13.09.10:272][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Engine.ini]
+[2023.02.12-13.09.10:272][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Engine.ini]
+[2023.02.12-13.09.10:298][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.02.12-13.09.10:298][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.02.12-13.09.10:299][  0]LogInit: Selected Device Profile: [Windows]
+[2023.02.12-13.09.10:299][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.02.12-13.09.10:299][  0]LogHAL: Display: Platform has ~ 32 GB [34308362240 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.02.12-13.09.10:299][  0]LogInit: Going up to parent DeviceProfile []
+[2023.02.12-13.09.10:299][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.02.12-13.09.10:299][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2023.02.12-13.09.10:300][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Engine.ini]
+[2023.02.12-13.09.10:300][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Config/Windows/Editor.ini]
+[2023.02.12-13.09.10:300][  0]LogInit: Computer: DESKTOP-HMT0369
+[2023.02.12-13.09.10:300][  0]LogInit: User: mvat1
+[2023.02.12-13.09.10:300][  0]LogInit: CPU Page size=4096, Cores=8
+[2023.02.12-13.09.10:300][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.02.12-13.09.10:300][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2023.02.12-13.09.10:300][  0]LogMemory: Platform Memory Stats for Windows
+[2023.02.12-13.09.10:300][  0]LogMemory: Process Physical Memory: 136.34 MB used, 136.34 MB peak
+[2023.02.12-13.09.10:300][  0]LogMemory: Process Virtual Memory: 123.94 MB used, 123.94 MB peak
+[2023.02.12-13.09.10:300][  0]LogMemory: Physical Memory: 11937.58 MB used,  20781.43 MB free, 32719.00 MB total
+[2023.02.12-13.09.10:301][  0]LogMemory: Virtual Memory: 134193776.00 MB used,  23949.83 MB free, 134217728.00 MB total
+[2023.02.12-13.09.10:305][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.02.12-13.09.10:334][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2023.02.12-13.09.10:338][  0]LogInit: Overriding language with editor language configuration option (en).
+[2023.02.12-13.09.10:338][  0]LogInit: Using OS detected locale (ko-KR).
+[2023.02.12-13.09.10:493][  0]LogInit: Setting process to per monitor DPI aware
+[2023.02.12-13.09.10:520][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2023.02.12-13.09.10:533][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.02.12-13.09.10:533][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.02.12-13.09.10:637][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.02.12-13.09.10:637][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.02.12-13.09.10:637][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.02.12-13.09.10:637][  0]LogD3D11RHI: D3D11 adapters:
+[2023.02.12-13.09.10:727][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2023.02.12-13.09.10:727][  0]LogD3D11RHI:       8072/0/16359 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.02.12-13.09.10:729][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.02.12-13.09.10:729][  0]LogD3D11RHI:       0/0/16359 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.02.12-13.09.10:729][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.02.12-13.09.10:737][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.02.12-13.09.10:737][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2023.02.12-13.09.10:737][  0]LogWindows: EnumDisplayDevices:
+[2023.02.12-13.09.10:737][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2023.02.12-13.09.10:737][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2023.02.12-13.09.10:737][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2023.02.12-13.09.10:737][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2023.02.12-13.09.10:737][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.02.12-13.09.10:737][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2023.02.12-13.09.10:737][  0]LogD3D11RHI:   Driver Version: 527.56 (internal:31.0.15.2756, unified:527.56)
+[2023.02.12-13.09.10:738][  0]LogD3D11RHI:      Driver Date: 12-5-2022
+[2023.02.12-13.09.10:738][  0]LogRHI: Texture pool is 5650 MB (70% of 8072 MB)
+[2023.02.12-13.09.10:795][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.02.12-13.09.10:795][  0]LogD3D11RHI: Async texture creation enabled
+[2023.02.12-13.09.10:795][  0]LogD3D11RHI: Array index from any shader is supported
+[2023.02.12-13.09.10:826][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.02.12-13.09.10:827][  0]LogRHI: GeForceNow SDK initialized: 1
+[2023.02.12-13.09.11:056][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.02.12-13.09.11:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.02.12-13.09.11:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.02.12-13.09.11:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.02.12-13.09.11:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.02.12-13.09.11:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.02.12-13.09.11:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.02.12-13.09.11:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.02.12-13.09.11:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.02.12-13.09.11:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.02.12-13.09.11:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.02.12-13.09.11:092][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.02.12-13.09.11:092][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.02.12-13.09.11:099][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.02.12-13.09.11:106][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.02.12-13.09.11:113][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.02.12-13.09.11:121][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.02.12-13.09.11:128][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.02.12-13.09.11:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.02.12-13.09.11:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.02.12-13.09.11:163][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.02.12-13.09.11:163][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.02.12-13.09.11:170][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2023.02.12-13.09.11:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2023.02.12-13.09.11:184][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2023.02.12-13.09.11:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2023.02.12-13.09.11:203][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.02.12-13.09.11:204][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.02.12-13.09.11:211][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.02.12-13.09.11:217][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.02.12-13.09.11:225][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.02.12-13.09.11:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.02.12-13.09.11:231][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.02.12-13.09.11:237][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.02.12-13.09.11:282][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2023.02.12-13.09.11:282][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../UnrealProject/UE4_Project/ArenaBattle/Intermediate/Shaders/WorkingDirectory/13116/).
+[2023.02.12-13.09.11:282][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mvat1/AppData/Local/Temp/UnrealShaderWorkingDir/A7C1878D4B46DD9F92F4AB9F0B13A6C7/'.
+[2023.02.12-13.09.11:282][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.02.12-13.09.11:282][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.02.12-13.09.11:845][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.02.12-13.09.11:891][  0]LogDerivedDataCache: Loaded boot cache 0.05s 97MB C:/Users/mvat1/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2023.02.12-13.09.11:891][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mvat1/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2023.02.12-13.09.11:891][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UnrealProject/UE4_Project/ArenaBattle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.02.12-13.09.11:891][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.02.12-13.09.11:891][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UnrealProject/UE4_Project/ArenaBattle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.02.12-13.09.11:891][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.02.12-13.09.11:902][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.02.12-13.09.11:902][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.02.12-13.09.11:902][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.02.12-13.09.11:908][  0]LogDerivedDataCache: Speed tests for C:/Users/mvat1/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2023.02.12-13.09.11:908][  0]LogDerivedDataCache: Display: Performance to C:/Users/mvat1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=1690.34MBs, RandomWriteSpeed=189.78MBs. Assigned SpeedClass 'Local'
+[2023.02.12-13.09.11:909][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mvat1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.02.12-13.09.11:909][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.02.12-13.09.11:909][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.02.12-13.09.11:949][  0]LogSlate: Using FreeType 2.10.0
+[2023.02.12-13.09.11:949][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.02.12-13.09.11:969][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2023.02.12-13.09.12:162][  0]LogInit: Selected Device Profile: [Windows]
+[2023.02.12-13.09.12:162][  0]LogInit: Active device profile: [000002508D739900][000002508D1D56C0 49] Windows
+[2023.02.12-13.09.12:162][  0]LogInit: Profiles: [000002508D739900][000002508D1D56C0 49] Windows, [000002508D72B500][000002508D1D9800 49] WindowsNoEditor, [000002508D73B300][000002508D1DD940 49] WindowsServer, [000002508D729000][000002508D1E5AC0 49] WindowsClient, [000002508D739100][000002508D1E9C40 49] IOS, [000002508D72B200][000002508D1EC100 49] iPadAir, [000002508D73B200][000002508D1F0280 49] iPadAir2, [000002508D6D6600][000002508D1F8540 49] IPadPro, [000002508D6D6700][000002508D1F4580 49] iPadAir3, [000002508D73B700][000002508D1FC700 49] iPadAir4, [000002508D6D7C00][000002508D200880 49] iPadMini2, [000002508D739F00][000002508D204A00 49] iPadMini3, [000002508D6D5B00][000002508D208B80 49] iPadMini4, [000002508D739D00][000002508D20CD00 49] iPadMini5, [000002508D711F00][000002508D214FC0 49] iPhone6, [000002508D712000][000002508D211000 49] iPodTouch6, [000002508D72B300][000002508D22F2C0 49] iPhone7, [000002508D72B400][000002508D219300 49] iPodTouch7, [000002508D713600][000002508D245480 49] iPhone5S, [000002508D729800][000002508D249600 49] iPhone6Plus, [000002508D711900][000002508D1E1740 49] iPhone6S, [000002508D72BA00][000002508D259880 49] iPhone6SPlus, [000002508D710C00][000002508D2619C0 49] iPhone7Plus, [000002508D72A000][000002508D269B40 49] iPhoneSE, [000002508D711200][000002508D279CC0 49] iPhone8, [000002508D72B000][000002508D280180 49] iPhone8Plus, [000002508D710B00][000002508D284300 49] iPhoneX, [000002508D729200][000002508D288480 49] iPhoneXS, [000002508D712300][000002508D28C600 49] iPhoneXSMax, [000002508D728700][000002508F3B0780 49] iPhoneXR, [000002508D713200][000002508F3B8900 49] iPhone11, [000002508D72A900][000002508F3E4A80 49] iPhone11Pro, [000002508D711500][000002508F3E8C00 49] iPhone11ProMax, [000002508D729D00][000002508F3ECD80 49] iPhoneSE2, [000002508D713C00][000002508F3F0F00 49] iPhone12Mini, [000002508D728F00][000002508F3F5080 49] iPhone12, [000002508D73BA00][000002508F3FD200 49] iPhone12Pro, [000002508D711700][000002508F401380 49] iPhone12ProMax, [000002508D73BC00][000002508F405500 49] iPadPro105, [000002508D710E00][000002508F40D680 49] iPadPro129, [000002508D73AF00][000002508D2657C0 49] iPadPro97, [000002508D712400][000002508F411900 49] iPadPro2_129, [000002508D729700][000002508F415A40 49] iPad5, [000002508D713800][000002508F419B80 49] iPad6, [000002508D72BF00][000002508F42DD00 49] iPad7, [000002508D710F00][000002508F4301C0 49] iPad8, [000002508D728C00][000002508F434340 49] iPadPro11, [000002508D710700][000002508F4384C0 49] iPadPro2_11, [000002508D72B800][000002508F43C640 49] iPadPro3_129, [000002508D712200][000002508F4407C0 49] iPadPro4_129, [000002508D72AE00][000002508F444940 49] AppleTV, [000002508D710D00][000002508F448AC0 49] AppleTV4K, [000002508D728500][000002508F44CC40 49] TVOS, [000002508D710300][000002508F450DC0 49] Mac, [000002508D72A800][000002508F454F40 49] MacClient, [000002508D710400][000002508F4590C0 49] MacNoEditor, [000002508D72A200][000002508F45D240 49] MacServer, [000002508D713E00][000002508F4613C0 49] Linux, [000002508D72AC00][000002508F485540 49] LinuxAArch64, [000002508D712C00][000002508F4896C0 49] LinuxNoEditor, [000002508D728100][000002508F429800 49] LinuxAArch64NoEditor, [000002508D711E00][000002508F48D940 49] LinuxClient, [000002508D72BE00][000002508F491A80 49] LinuxAArch64Client, [000002508D710900][000002508F495BC0 49] LinuxServer, [000002508D72BD00][000002508F49DD40 49] LinuxAArch64Server, [000002508D713100][000002508F4A0200 49] Android, [000002508D72A600][000002508F4A4380 49] Android_Low, [000002508D711100][000002508F4A8500 49] Android_Mid, [000002508D729C00][000002508F4AC680 49] Android_High, [000002508D712700][000002508F4B0800 49] Android_Default, [000002508D728800][000002508F4B4980 49] Android_Adreno4xx, [000002508D713F00][000002508F4B8B00 49] Android_Adreno5xx_Low, [000002508D728900][000002508F4BCC80 49] Android_Adreno5xx, [000002508D710800][000002508F4C0E00 49] Android_Adreno6xx, [000002508D72B600][000002508F4C4F80 49] Android_Adreno6xx_Vulkan, [000002508D713500][000002508F4C9100 49] Android_Mali_T6xx, [000002508D72A300][000002508F4CD280 49] Android_Mali_T7xx, [000002508D711000][000002508F50D400 49] Android_Mali_T8xx, [000002508D72A100][000002508F511580 49] Android_Mali_G71, [000002508D711B00][000002508F515700 49] Android_Mali_G72, [000002508D728A00][000002508F519880 49] Android_Mali_G72_Vulkan, [000002508D711D00][000002508F4999C0 49] Android_Mali_G76, [000002508D729500][000002508F51DB00 49] Android_Mali_G76_Vulkan, [000002508D713700][000002508F521C40 49] Android_Mali_G77, [000002508D6D6E00][000002508F528100 49] Android_Mali_G77_Vulkan, [000002508D738B00][000002508F52C280 49] Android_Vulkan_SM5, [000002508D6D4800][000002508F530400 49] Android_PowerVR_G6xxx, [000002508D738E00][000002508F534580 49] Android_PowerVR_GT7xxx, [000002508D6D4C00][000002508F538700 49] Android_PowerVR_GE8xxx, [000002508D739400][000002508F53C880 49] Android_PowerVR_GM9xxx, [000002508D6D4900][000002508F540A00 49] Android_PowerVR_GM9xxx_Vulkan, [000002508D73BF00][000002508F544B80 49] Android_TegraK1, [000002508D6D4E00][000002508F548D00 49] Android_Unknown_Vulkan, [000002508D738100][000002508F54CE80 49] Lumin, [000002508D6D4D00][000002508F551000 49] Lumin_Desktop, [000002508D739700][000002508F555180 49] HoloLens, 
+[2023.02.12-13.09.12:245][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.02.12-13.09.12:245][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.02.12-13.09.12:245][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.02.12-13.09.12:245][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.02.12-13.09.12:245][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.02.12-13.09.12:259][  0]LogNetVersion: ArenaBattle 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 784849392)
+[2023.02.12-13.09.12:590][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2023.02.12-13.09.12:611][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.020176 seconds
+[2023.02.12-13.09.12:615][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2023.02.12-13.09.12:615][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2023.02.12-13.09.12:615][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.02.12-13.09.12:904][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.02.12-13.09.12:910][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.09.12:993][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.09.13:071][  0]SourceControl: Source control is disabled
+[2023.02.12-13.09.13:071][  0]SourceControl: Source control is disabled
+[2023.02.12-13.09.13:079][  0]SourceControl: Source control is disabled
+[2023.02.12-13.09.13:081][  0]SourceControl: Source control is disabled
+[2023.02.12-13.09.13:087][  0]SourceControl: Source control is disabled
+[2023.02.12-13.09.13:092][  0]LogUProjectInfo: Found projects:
+[2023.02.12-13.09.13:263][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.02.12-13.09.13:287][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.02.12-13.09.13:287][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.02.12-13.09.13:312][  0]LogCollectionManager: Loaded 0 collections in 0.000571 seconds
+[2023.02.12-13.09.13:330][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProject/UE4_Project/ArenaBattle/Saved/Collections/' took 0.00s
+[2023.02.12-13.09.13:330][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProject/UE4_Project/ArenaBattle/Content/Developers/mvat1/Collections/' took 0.00s
+[2023.02.12-13.09.13:330][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProject/UE4_Project/ArenaBattle/Content/Collections/' took 0.00s
+[2023.02.12-13.09.13:330][  0]LogOcInput: OculusInput pre-init called
+[2023.02.12-13.09.13:338][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2023.02.12-13.09.13:338][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2023.02.12-13.09.13:381][  0]LogEngine: Initializing Engine...
+[2023.02.12-13.09.13:382][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.02.12-13.09.13:382][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2023.02.12-13.09.13:383][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.02.12-13.09.13:459][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.02.12-13.09.13:466][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.02.12-13.09.13:475][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.02.12-13.09.13:478][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.02.12-13.09.13:478][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.02.12-13.09.13:478][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.12-13.09.13:478][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.12-13.09.13:478][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.12-13.09.13:478][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.12-13.09.13:478][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.12-13.09.13:478][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.12-13.09.13:478][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.12-13.09.13:478][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.12-13.09.13:478][  0]LogAudio: Display: Using built-in audio occlusion.
+[2023.02.12-13.09.13:478][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.12-13.09.13:485][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.12-13.09.13:485][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.02.12-13.09.13:511][  0]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.02.12-13.09.13:513][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.12-13.09.13:514][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.12-13.09.13:514][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.12-13.09.13:515][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.12-13.09.13:515][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.12-13.09.13:515][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.12-13.09.13:515][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.12-13.09.13:515][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.12-13.09.13:516][  0]LogInit: FAudioDevice initialized.
+[2023.02.12-13.09.13:516][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.02.12-13.09.13:516][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.02.12-13.09.13:596][  0]LogDerivedDataCache: Saved boot cache 0.08s 97MB C:/Users/mvat1/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2023.02.12-13.09.13:597][  0]LogInit: Texture streaming: Enabled
+[2023.02.12-13.09.13:606][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2023.02.12-13.09.13:608][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.02.12-13.09.13:609][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2023.02.12-13.09.13:610][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2023.02.12-13.09.13:631][  0]LogInit: Transaction tracking system initialized
+[2023.02.12-13.09.13:647][  0]BlueprintLog: New page: Editor Load
+[2023.02.12-13.09.13:699][  0]LocalizationService: Localization service is disabled
+[2023.02.12-13.09.13:717][  0]TimingProfiler: Initialize
+[2023.02.12-13.09.13:717][  0]TimingProfiler: OnSessionChanged
+[2023.02.12-13.09.13:717][  0]LoadingProfiler: Initialize
+[2023.02.12-13.09.13:718][  0]LoadingProfiler: OnSessionChanged
+[2023.02.12-13.09.13:718][  0]NetworkingProfiler: Initialize
+[2023.02.12-13.09.13:718][  0]NetworkingProfiler: OnSessionChanged
+[2023.02.12-13.09.13:718][  0]MemoryProfiler: Initialize
+[2023.02.12-13.09.13:718][  0]MemoryProfiler: OnSessionChanged
+[2023.02.12-13.09.13:813][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2023.02.12-13.09.13:813][  0]LogCook: Display: Mobile HDR setting 1
+[2023.02.12-13.09.13:871][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProject/UE4_Project/ArenaBattle/Content/' took 0.01s
+[2023.02.12-13.09.14:077][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.02.12-13.09.14:080][  0]SourceControl: Source control is disabled
+[2023.02.12-13.09.14:080][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.441
+[2023.02.12-13.09.14:080][  0]Cmd: MAP LOAD FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.02.12-13.09.14:080][  0]LightingResults: New page: Lighting Build
+[2023.02.12-13.09.14:081][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.02.12-13.09.14:081][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.12-13.09.14:081][  0]MapCheck: New page: Map Check
+[2023.02.12-13.09.14:081][  0]LightingResults: New page: Lighting Build
+[2023.02.12-13.09.14:104][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.09.14:183][  0]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.09.14:302][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Step3'.
+[2023.02.12-13.09.14:303][  0]LogAIModule: Creating AISystem for world Step3
+[2023.02.12-13.09.14:307][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.02.12-13.09.14:313][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.02.12-13.09.14:314][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.02.12-13.09.14:314][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.109ms to complete.
+[2023.02.12-13.09.14:314][  0]LogFileHelpers: Loading map 'Step3' took 0.234
+[2023.02.12-13.09.14:316][  0]LogUnrealEdMisc: Total Editor Startup Time, took 4.677
+[2023.02.12-13.09.14:420][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.12-13.09.14:425][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.12-13.09.14:429][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.12-13.09.14:433][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.12-13.09.14:448][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0089 seconds. Added 3620 classes and 864 folders.
+[2023.02.12-13.09.14:449][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.02.12-13.09.14:450][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.02.12-13.09.14:450][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:450][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.02.12-13.09.14:450][  0]LogPakFile: OnPakFileMounted2Time == 0.000006
+[2023.02.12-13.09.14:451][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2023.02.12-13.09.14:451][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:451][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2023.02.12-13.09.14:451][  0]LogPakFile: OnPakFileMounted2Time == 0.000006
+[2023.02.12-13.09.14:451][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2023.02.12-13.09.14:451][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:451][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2023.02.12-13.09.14:451][  0]LogPakFile: OnPakFileMounted2Time == 0.000007
+[2023.02.12-13.09.14:451][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.02.12-13.09.14:451][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:451][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.02.12-13.09.14:451][  0]LogPakFile: OnPakFileMounted2Time == 0.000008
+[2023.02.12-13.09.14:452][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2023.02.12-13.09.14:452][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:452][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2023.02.12-13.09.14:452][  0]LogPakFile: OnPakFileMounted2Time == 0.000009
+[2023.02.12-13.09.14:452][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2023.02.12-13.09.14:452][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:452][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2023.02.12-13.09.14:452][  0]LogPakFile: OnPakFileMounted2Time == 0.000010
+[2023.02.12-13.09.14:453][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2023.02.12-13.09.14:453][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:453][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2023.02.12-13.09.14:453][  0]LogPakFile: OnPakFileMounted2Time == 0.000011
+[2023.02.12-13.09.14:453][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2023.02.12-13.09.14:453][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:453][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2023.02.12-13.09.14:453][  0]LogPakFile: OnPakFileMounted2Time == 0.000012
+[2023.02.12-13.09.14:453][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.02.12-13.09.14:453][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:453][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.02.12-13.09.14:453][  0]LogPakFile: OnPakFileMounted2Time == 0.000012
+[2023.02.12-13.09.14:454][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2023.02.12-13.09.14:454][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:454][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2023.02.12-13.09.14:454][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2023.02.12-13.09.14:454][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2023.02.12-13.09.14:454][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:454][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2023.02.12-13.09.14:454][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
+[2023.02.12-13.09.14:454][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.02.12-13.09.14:454][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:454][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.02.12-13.09.14:454][  0]LogPakFile: OnPakFileMounted2Time == 0.000015
+[2023.02.12-13.09.14:455][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.02.12-13.09.14:455][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:455][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.02.12-13.09.14:455][  0]LogPakFile: OnPakFileMounted2Time == 0.000016
+[2023.02.12-13.09.14:455][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.02.12-13.09.14:455][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:455][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.02.12-13.09.14:455][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
+[2023.02.12-13.09.14:455][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2023.02.12-13.09.14:455][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:455][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2023.02.12-13.09.14:455][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
+[2023.02.12-13.09.14:456][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.02.12-13.09.14:456][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:456][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.02.12-13.09.14:456][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
+[2023.02.12-13.09.14:456][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2023.02.12-13.09.14:456][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:456][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2023.02.12-13.09.14:456][  0]LogPakFile: OnPakFileMounted2Time == 0.000019
+[2023.02.12-13.09.14:457][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.02.12-13.09.14:457][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:457][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.02.12-13.09.14:457][  0]LogPakFile: OnPakFileMounted2Time == 0.000020
+[2023.02.12-13.09.14:457][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.02.12-13.09.14:457][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:457][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.02.12-13.09.14:457][  0]LogPakFile: OnPakFileMounted2Time == 0.000021
+[2023.02.12-13.09.14:457][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.02.12-13.09.14:457][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:457][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.02.12-13.09.14:457][  0]LogPakFile: OnPakFileMounted2Time == 0.000022
+[2023.02.12-13.09.14:458][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.02.12-13.09.14:458][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:458][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.02.12-13.09.14:458][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
+[2023.02.12-13.09.14:458][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.02.12-13.09.14:458][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:458][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.02.12-13.09.14:458][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2023.02.12-13.09.14:458][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2023.02.12-13.09.14:458][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:458][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2023.02.12-13.09.14:458][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2023.02.12-13.09.14:459][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.02.12-13.09.14:459][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:459][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.02.12-13.09.14:459][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
+[2023.02.12-13.09.14:459][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.02.12-13.09.14:459][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:459][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.02.12-13.09.14:459][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
+[2023.02.12-13.09.14:460][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2023.02.12-13.09.14:460][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.02.12-13.09.14:460][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2023.02.12-13.09.14:460][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.02.12-13.09.14:485][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.02.12-13.09.14:554][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.02.12-13.09.14:557][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.02.12-13.09.14:559][  0]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.02.12-13.09.14:621][  0]LogRenderer: Reallocating scene render targets to support 1132x380 Format 10 NumSamples 1 (Frame:1).
+[2023.02.12-13.09.14:718][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2023.02.12-13.09.14:718][  0]LogInput: Warning: Action Jump uses invalid key OculusGo_Left_Trigger_Click.
+[2023.02.12-13.09.14:718][  0]LogInput: Warning: Action ResetVR uses invalid key OculusGo_Left_Trackpad_Click.
+[2023.02.12-13.09.14:718][  0]LogInput: Warning: Use -RemoveInvalidKeys to remove instances of these keys from the action mapping.
+[2023.02.12-13.09.14:718][  0]LogLoad: (Engine Initialization) Total time: 5.08 seconds
+[2023.02.12-13.09.14:718][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.02.12-13.09.14:718][  0]LogInit: First time updating LLM stats...
+[2023.02.12-13.09.14:737][  0]ArenaBattle: Warning: AFountain::PostInitializeComponents(76)
+[2023.02.12-13.09.14:777][  0]LogAssetRegistry: Asset discovery search completed in 2.8092 seconds
+[2023.02.12-13.09.14:779][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2023.02.12-13.09.14:798][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.02.12-13.09.14:827][  1]LogRenderer: Reallocating scene render targets to support 1132x396 Format 10 NumSamples 1 (Frame:5).
+[2023.02.12-13.09.14:874][  2]ArenaBattle: Warning: AABPawn::PostInitializeComponents(86)
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.09.14:907][  3]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.09.14:908][  3]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(41)ASSERTION : 'nullptr != ABGameInstance'
+[2023.02.12-13.09.39:560][848]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.02.12-13.09.46:749][663]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.02.12-13.09.46:758][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.09.46:762][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.02.12-13.09.46:772][663]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step35C75276F4A57101A01C22A92C1484F31.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap'
+[2023.02.12-13.09.46:782][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3_BuiltData" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset" SILENT=true
+[2023.02.12-13.09.46:789][663]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3_BuiltData993368C2483EAE332FAC97877B0C57B5.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset'
+[2023.02.12-13.09.46:799][663]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.12-13.09.46:799][663]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Book/Maps/Step3_BuiltData.Step3_BuiltData
+[2023.02.12-13.09.46:799][663]LogContentValidation: Display: Validating World /Game/Book/Maps/Step3.Step3
+[2023.02.12-13.09.46:904][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.09.46:906][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.12-13.09.46:916][674]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3CB8502A24CE107DBF104A2B4A0E2F031.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap'
+[2023.02.12-13.09.46:925][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3_BuiltData" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset" SILENT=true
+[2023.02.12-13.09.46:930][674]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3_BuiltDataB4FD24C54832B491B482D790E6CA4765.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset'
+[2023.02.12-13.09.46:940][674]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.12-13.09.46:940][674]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Book/Maps/Step3_BuiltData.Step3_BuiltData
+[2023.02.12-13.09.46:940][674]LogContentValidation: Display: Validating World /Game/Book/Maps/Step3.Step3
+[2023.02.12-13.10.26:630][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.10.26:632][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.02.12-13.10.26:642][434]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3AD21BAF648255DC9FCE6CAB8BDA40D94.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap'
+[2023.02.12-13.10.26:651][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3_BuiltData" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset" SILENT=true
+[2023.02.12-13.10.26:656][434]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3_BuiltDataDC6B4D7743EFB03D59F2D9B14271C098.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset'
+[2023.02.12-13.10.26:666][434]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.12-13.10.26:666][434]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Book/Maps/Step3_BuiltData.Step3_BuiltData
+[2023.02.12-13.10.26:666][434]LogContentValidation: Display: Validating World /Game/Book/Maps/Step3.Step3
+[2023.02.12-13.10.36:182][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.10.36:184][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.12-13.10.36:194][571]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step31AAD76FD4FF144011FEFA094FDF97958.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap'
+[2023.02.12-13.10.36:203][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3_BuiltData" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset" SILENT=true
+[2023.02.12-13.10.36:208][571]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3_BuiltDataA49A25B4437ECD36C12E89AB5C03A31A.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset'
+[2023.02.12-13.10.36:215][571]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.12-13.10.36:215][571]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Book/Maps/Step3_BuiltData.Step3_BuiltData
+[2023.02.12-13.10.36:215][571]LogContentValidation: Display: Validating World /Game/Book/Maps/Step3.Step3
+[2023.02.12-13.10.36:338][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.10.36:341][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.02.12-13.10.36:350][584]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step38092D48F4998C6DDFC0E969712272B6B.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap'
+[2023.02.12-13.10.36:359][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3_BuiltData" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset" SILENT=true
+[2023.02.12-13.10.36:364][584]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3_BuiltDataE75070EC4C47A16877C1C4BD8BEF7F2B.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset'
+[2023.02.12-13.10.36:372][584]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.12-13.10.36:372][584]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Book/Maps/Step3_BuiltData.Step3_BuiltData
+[2023.02.12-13.10.36:372][584]LogContentValidation: Display: Validating World /Game/Book/Maps/Step3.Step3
+[2023.02.12-13.11.16:630][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.11.16:632][409]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.02.12-13.11.16:642][409]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step32BFBC33241DE76DF9459FFBACB398EED.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap'
+[2023.02.12-13.11.16:651][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3_BuiltData" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset" SILENT=true
+[2023.02.12-13.11.16:656][409]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3_BuiltData50BC103546926BCE84B25EBE0442F0F3.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset'
+[2023.02.12-13.11.16:667][409]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.12-13.11.16:667][409]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Book/Maps/Step3_BuiltData.Step3_BuiltData
+[2023.02.12-13.11.16:667][409]LogContentValidation: Display: Validating World /Game/Book/Maps/Step3.Step3
+[2023.02.12-13.11.16:769][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.11.16:771][419]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.12-13.11.16:780][419]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3A9E38B92475163F9CC3114A64D56AF4A.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap'
+[2023.02.12-13.11.16:789][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3_BuiltData" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset" SILENT=true
+[2023.02.12-13.11.16:794][419]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3_BuiltDataB5541A34491A4B4410B26492F7945F1B.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset'
+[2023.02.12-13.11.16:804][419]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.12-13.11.16:804][419]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Book/Maps/Step3_BuiltData.Step3_BuiltData
+[2023.02.12-13.11.16:804][419]LogContentValidation: Display: Validating World /Game/Book/Maps/Step3.Step3
+[2023.02.12-13.11.34:987][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.11.34:990][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.02.12-13.11.34:999][597]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step32A7E12744A9EA643366640AECAB1ED22.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap'
+[2023.02.12-13.11.35:009][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3_BuiltData" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset" SILENT=true
+[2023.02.12-13.11.35:014][597]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3_BuiltDataBD81FDE34F9607CDCF13C48173C02B21.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset'
+[2023.02.12-13.11.35:021][597]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.12-13.11.35:021][597]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Book/Maps/Step3_BuiltData.Step3_BuiltData
+[2023.02.12-13.11.35:021][597]LogContentValidation: Display: Validating World /Game/Book/Maps/Step3.Step3
+[2023.02.12-13.11.35:108][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.11.35:110][606]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.12-13.11.35:119][606]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step36190CF3347A860FE5F7A15AED818666A.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap'
+[2023.02.12-13.11.35:128][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3_BuiltData" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset" SILENT=true
+[2023.02.12-13.11.35:133][606]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3_BuiltDataA4803D64425B7CA1DFFC5D9703B23138.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset'
+[2023.02.12-13.11.35:140][606]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.12-13.11.35:140][606]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Book/Maps/Step3_BuiltData.Step3_BuiltData
+[2023.02.12-13.11.35:140][606]LogContentValidation: Display: Validating World /Game/Book/Maps/Step3.Step3
+[2023.02.12-13.24.06:800][916]LogVSAccessor: Warning: Couldn't save all documents
+[2023.02.12-13.24.06:807][916]Candidate modules for hot reload:
+[2023.02.12-13.24.06:807][916]  ArenaBattle
+[2023.02.12-13.24.06:807][916]Launching UnrealBuildTool... [D:/MVAT/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaBattle,47 ArenaBattleEditor Win64 Development -Project="D:/UnrealProject/UE4_Project/ArenaBattle/ArenaBattle.uproject" "D:/UnrealProject/UE4_Project/ArenaBattle/ArenaBattle.uproject"  -IgnoreJunk]
+[2023.02.12-13.24.06:810][916]Warning: Starting HotReload took  0.0s.
+[2023.02.12-13.24.10:848][367]CompilerResultsLog: New page: Compilation - 2023. 2. 13. 오전 7:24:10
+[2023.02.12-13.24.10:848][367]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealProject\UE4_Project).
+[2023.02.12-13.24.10:848][367]CompilerResultsLog: Parsing headers for ArenaBattleEditor
+[2023.02.12-13.24.10:848][367]CompilerResultsLog:   Running UnrealHeaderTool "D:\UnrealProject\UE4_Project\ArenaBattle\ArenaBattle.uproject" "D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mvat1\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.02.12-13.24.10:848][367]CompilerResultsLog: Error: D:/UnrealProject/UE4_Project/ArenaBattle/Source/ArenaBattle/Public/ABSection.h(45)  : Error: Missing '=' in Variable declaration specifier
+[2023.02.12-13.24.10:848][367]LogMainFrame: MainFrame: Module compiling took 4.048 seconds
+[2023.02.12-13.24.10:851][367]Warning: HotReload failed, recompile failed
+[2023.02.12-13.24.17:080][101]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.02.12-13.25.04:042][214]LogSlate: Window 'Message Log' being destroyed
+[2023.02.12-13.25.04:046][214]LogSlate: Window 'Message Log' being destroyed
+[2023.02.12-13.25.05:040][321]LogVSAccessor: Warning: Couldn't save all documents
+[2023.02.12-13.25.05:044][321]Candidate modules for hot reload:
+[2023.02.12-13.25.05:044][321]  ArenaBattle
+[2023.02.12-13.25.05:044][321]Launching UnrealBuildTool... [D:/MVAT/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaBattle,8370 ArenaBattleEditor Win64 Development -Project="D:/UnrealProject/UE4_Project/ArenaBattle/ArenaBattle.uproject" "D:/UnrealProject/UE4_Project/ArenaBattle/ArenaBattle.uproject"  -IgnoreJunk]
+[2023.02.12-13.25.05:046][321]Warning: Starting HotReload took  0.0s.
+[2023.02.12-13.25.09:195][580]CompilerResultsLog: New page: Compilation - 2023. 2. 13. 오전 7:25:09
+[2023.02.12-13.25.09:195][580]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealProject\UE4_Project).
+[2023.02.12-13.25.09:195][580]CompilerResultsLog: Parsing headers for ArenaBattleEditor
+[2023.02.12-13.25.09:195][580]CompilerResultsLog:   Running UnrealHeaderTool "D:\UnrealProject\UE4_Project\ArenaBattle\ArenaBattle.uproject" "D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mvat1\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.02.12-13.25.09:195][580]CompilerResultsLog: Error: D:/UnrealProject/UE4_Project/ArenaBattle/Source/ArenaBattle/Public/ABSection.h(45)  : Error: Missing '=' in Variable declaration specifier
+[2023.02.12-13.25.09:195][580]LogMainFrame: MainFrame: Module compiling took 4.155 seconds
+[2023.02.12-13.25.09:195][580]Warning: HotReload failed, recompile failed
+[2023.02.12-13.25.10:972][594]LogSlate: Took 0.001236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.02.12-13.25.29:343][990]LogSlate: Window 'Message Log' being destroyed
+[2023.02.12-13.25.29:347][990]LogSlate: Window 'Message Log' being destroyed
+[2023.02.12-13.25.29:958][ 58]LogVSAccessor: Warning: Couldn't save all documents
+[2023.02.12-13.25.29:962][ 58]Candidate modules for hot reload:
+[2023.02.12-13.25.29:962][ 58]  ArenaBattle
+[2023.02.12-13.25.29:962][ 58]Launching UnrealBuildTool... [D:/MVAT/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaBattle,6101 ArenaBattleEditor Win64 Development -Project="D:/UnrealProject/UE4_Project/ArenaBattle/ArenaBattle.uproject" "D:/UnrealProject/UE4_Project/ArenaBattle/ArenaBattle.uproject"  -IgnoreJunk]
+[2023.02.12-13.25.29:965][ 58]Warning: Starting HotReload took  0.0s.
+[2023.02.12-13.25.41:792][225]CompilerResultsLog: New page: Compilation - 2023. 2. 13. 오전 7:25:41
+[2023.02.12-13.25.41:792][225]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealProject\UE4_Project).
+[2023.02.12-13.25.41:792][225]CompilerResultsLog: Parsing headers for ArenaBattleEditor
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   Running UnrealHeaderTool "D:\UnrealProject\UE4_Project\ArenaBattle\ArenaBattle.uproject" "D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mvat1\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.02.12-13.25.41:792][225]CompilerResultsLog: Reflection code generated for ArenaBattleEditor in 3.1956254 seconds
+[2023.02.12-13.25.41:792][225]CompilerResultsLog: Building ArenaBattleEditor...
+[2023.02.12-13.25.41:792][225]CompilerResultsLog: Using Visual Studio 2019 14.29.30146 toolchain (D:\VS2019\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.02.12-13.25.41:792][225]CompilerResultsLog: Building 18 actions with 16 processes...
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [1/18] ArenaBattle.init.gen.cpp
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [2/18] ABWeapon.cpp
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [3/18] ABWeapon.gen.cpp
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [4/18] ABGameMode.cpp
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [5/18] ABCharacter.gen.cpp
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [6/18] ABPawn.gen.cpp
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [7/18] ABSection.gen.cpp
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [8/18] ABPawn.cpp
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [9/18] ABSection.cpp
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [10/18] ABItemBox.cpp
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [11/18] BTTask_Attack.cpp
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [12/18] BTService_Detect.cpp
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [13/18] BTTask_TurnToTarget.cpp
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [14/18] BTDecorator_IsInAttackRange.cpp
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [15/18] ABCharacter.cpp
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [16/18] UE4Editor-ArenaBattle-6101.lib
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:      Creating library D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-6101.lib and object D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-6101.exp
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [17/18] UE4Editor-ArenaBattle-6101.dll
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:      Creating library D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-6101.suppressed.lib and object D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-6101.suppressed.exp
+[2023.02.12-13.25.41:792][225]CompilerResultsLog:   [18/18] ArenaBattleEditor.target
+[2023.02.12-13.25.41:792][225]CompilerResultsLog: Total time in Parallel executor: 7.87 seconds
+[2023.02.12-13.25.41:792][225]CompilerResultsLog: Total execution time: 11.76 seconds
+[2023.02.12-13.25.41:792][225]LogMainFrame: MainFrame: Module compiling took 11.834 seconds
+[2023.02.12-13.25.41:820][225]LogClass: Could not find existing class ABSection in package /Script/ArenaBattle for HotReload, assuming new class
+[2023.02.12-13.25.41:821][225]LogClass: ABCharacterData HotReload.
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.25.41:824][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.25.41:826][225]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.25.41:826][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.25.41:828][225]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.25.41:842][225]LogHotReload: Re-instancing ABSection after hot-reload.
+[2023.02.12-13.25.41:860][225]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ArenaBattle' in 0.0003 seconds. Added 18 classes and 2 folders.
+[2023.02.12-13.25.41:861][225]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2023.02.12-13.25.41:897][225]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0093 seconds. Added 3620 classes and 864 folders.
+[2023.02.12-13.25.41:897][225]Display: HotReload took 12.0s.
+[2023.02.12-13.25.41:939][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.25.41:939][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.25.41:939][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.25.41:939][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.25.41:939][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.25.41:939][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.25.41:939][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.25.41:939][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.25.41:939][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.25.41:939][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.25.41:939][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.25.41:940][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.25.41:940][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.25.41:940][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.25.41:940][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.25.41:940][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.25.41:940][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.25.41:940][227]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.25.41:940][227]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(41)ASSERTION : 'nullptr != ABGameInstance'
+[2023.02.12-13.25.47:514][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.25.47:518][855]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.02.12-13.25.47:528][855]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step33C0A66DE47CDF24779B2769B030CE41E.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap'
+[2023.02.12-13.25.47:536][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3_BuiltData" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset" SILENT=true
+[2023.02.12-13.25.47:541][855]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3_BuiltData4D48E81E4C1454D8BABD90B2BF244A8A.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset'
+[2023.02.12-13.25.47:549][855]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.12-13.25.47:549][855]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Book/Maps/Step3_BuiltData.Step3_BuiltData
+[2023.02.12-13.25.47:549][855]LogContentValidation: Display: Validating World /Game/Book/Maps/Step3.Step3
+[2023.02.12-13.25.47:665][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.25.47:667][868]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.12-13.25.47:676][868]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3AA67E51A4597BC4C8BB30489C114CACB.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap'
+[2023.02.12-13.25.47:685][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3_BuiltData" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset" SILENT=true
+[2023.02.12-13.25.47:690][868]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3_BuiltDataD713E1C4427BD3F06762838F56183DBA.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset'
+[2023.02.12-13.25.47:698][868]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.12-13.25.47:698][868]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Book/Maps/Step3_BuiltData.Step3_BuiltData
+[2023.02.12-13.25.47:698][868]LogContentValidation: Display: Validating World /Game/Book/Maps/Step3.Step3
+[2023.02.12-13.25.51:937][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.25.51:940][371]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.12-13.25.51:949][371]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step386F6D38840AEF07779D48898706357CF.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap'
+[2023.02.12-13.25.51:959][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3_BuiltData" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset" SILENT=true
+[2023.02.12-13.25.51:964][371]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3_BuiltData274665BE4FF5CF1281D7108248880B52.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset'
+[2023.02.12-13.25.51:970][371]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.12-13.25.51:970][371]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Book/Maps/Step3_BuiltData.Step3_BuiltData
+[2023.02.12-13.25.51:971][371]LogContentValidation: Display: Validating World /Game/Book/Maps/Step3.Step3
+[2023.02.12-13.25.52:096][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.25.52:098][385]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.02.12-13.25.52:107][385]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3D8FD7720427BA89E548ECDA0A031DD50.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3.umap'
+[2023.02.12-13.25.52:116][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step3_BuiltData" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset" SILENT=true
+[2023.02.12-13.25.52:121][385]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step3_BuiltDataEEBA899F4FDDD018DA545CA999CDCCE7.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step3_BuiltData.uasset'
+[2023.02.12-13.25.52:129][385]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.12-13.25.52:129][385]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Book/Maps/Step3_BuiltData.Step3_BuiltData
+[2023.02.12-13.25.52:129][385]LogContentValidation: Display: Validating World /Game/Book/Maps/Step3.Step3
+[2023.02.12-13.26.00:090][306]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.02.12-13.26.03:513][306]LogSlate: Window 'Save Level As' being destroyed
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.26.03:576][306]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.26.03:582][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step4" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.26.03:588][306]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.02.12-13.26.03:597][306]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step4AC97E18448B30902D326B589ECBE2622.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap'
+[2023.02.12-13.26.03:606][306]LogFileHelpers: Saving map 'Step4' took 0.081
+[2023.02.12-13.26.03:607][306]Cmd: MAP LOAD FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.02.12-13.26.03:616][306]LightingResults: New page: Lighting Build
+[2023.02.12-13.26.03:616][306]LoadErrors: New page: Loading map: Step4.umap
+[2023.02.12-13.26.03:617][306]LogWorld: UWorld::CleanupWorld for Step3, bSessionEnded=true, bCleanupResources=true
+[2023.02.12-13.26.03:617][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.12-13.26.03:617][306]MapCheck: New page: Map Check
+[2023.02.12-13.26.03:617][306]LightingResults: New page: Lighting Build
+[2023.02.12-13.26.03:620][306]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.12-13.26.03:622][306]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.02.12-13.26.03:622][306]LogAudio: Display: Audio Device (ID: 1) registered with world 'Step4'.
+[2023.02.12-13.26.03:681][306]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.02.12-13.26.03:681][306]LogAIModule: Creating AISystem for world Step4
+[2023.02.12-13.26.03:686][306]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.02.12-13.26.03:699][306]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.02.12-13.26.03:699][306]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.083ms to complete.
+[2023.02.12-13.26.03:699][306]LogFileHelpers: Loading map 'Step4' took 0.092
+[2023.02.12-13.26.03:703][306]AssetCheck: New page: Asset Save: Step4
+[2023.02.12-13.26.03:703][306]LogContentValidation: Display: Validating World /Game/Book/Maps/Step4.Step4
+[2023.02.12-13.26.06:848][644]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2023.02.12-13.26.17:814][886]LogSlate: Window 'Project Settings' being destroyed
+[2023.02.12-13.26.17:818][886]LogSlate: Window 'Project Settings' being destroyed
+[2023.02.12-13.26.18:011][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step4" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.26.18:014][904]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.02.12-13.26.18:024][904]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step4AB02EC5747D207E33929E3AF050FC095.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap'
+[2023.02.12-13.26.18:032][904]LogFileHelpers: Saving map 'Step4' took 0.022
+[2023.02.12-13.26.18:040][904]AssetCheck: New page: Asset Save: Step4
+[2023.02.12-13.26.18:040][904]LogContentValidation: Display: Validating World /Game/Book/Maps/Step4.Step4
+[2023.02.12-13.26.18:168][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step4" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.26.18:170][918]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.02.12-13.26.18:179][918]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step4AA2EE972424889938CF004A2E9BFAFF4.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap'
+[2023.02.12-13.26.18:187][918]LogFileHelpers: Saving map 'Step4' took 0.020
+[2023.02.12-13.26.18:194][918]AssetCheck: New page: Asset Save: Step4
+[2023.02.12-13.26.18:194][918]LogContentValidation: Display: Validating World /Game/Book/Maps/Step4.Step4
+[2023.02.12-13.26.18:470][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step4" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.26.18:472][949]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.12-13.26.18:482][949]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step428A1DC08445337045C0B818318DAC4F9.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap'
+[2023.02.12-13.26.18:490][949]LogFileHelpers: Saving map 'Step4' took 0.020
+[2023.02.12-13.26.18:496][949]AssetCheck: New page: Asset Save: Step4
+[2023.02.12-13.26.18:496][949]LogContentValidation: Display: Validating World /Game/Book/Maps/Step4.Step4
+[2023.02.12-13.26.18:622][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step4" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.26.18:625][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.12-13.26.18:634][963]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step4E0977ECC46A2D063036CA789735E26D2.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap'
+[2023.02.12-13.26.18:642][963]LogFileHelpers: Saving map 'Step4' took 0.019
+[2023.02.12-13.26.18:648][963]AssetCheck: New page: Asset Save: Step4
+[2023.02.12-13.26.18:648][963]LogContentValidation: Display: Validating World /Game/Book/Maps/Step4.Step4
+[2023.02.12-13.26.18:755][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step4" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.26.18:758][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.12-13.26.18:766][975]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step453FFEFFA4FF845F001DA068D63000E59.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap'
+[2023.02.12-13.26.18:775][975]LogFileHelpers: Saving map 'Step4' took 0.020
+[2023.02.12-13.26.18:781][975]AssetCheck: New page: Asset Save: Step4
+[2023.02.12-13.26.18:781][975]LogContentValidation: Display: Validating World /Game/Book/Maps/Step4.Step4
+[2023.02.12-13.26.47:791][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step4" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.26.47:794][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.12-13.26.47:805][404]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step4C8D370DA47E1F0FA9D5D189E0036E55A.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap'
+[2023.02.12-13.26.47:821][404]AssetCheck: New page: Asset Save: Step4
+[2023.02.12-13.26.47:821][404]LogContentValidation: Display: Validating World /Game/Book/Maps/Step4.Step4
+[2023.02.12-13.26.47:962][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step4" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.26.47:964][419]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.12-13.26.47:973][419]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step412ED86C14CBC05202E638E9D72B7EDBC.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap'
+[2023.02.12-13.26.47:981][419]LogFileHelpers: Saving map 'Step4' took 0.020
+[2023.02.12-13.26.47:988][419]AssetCheck: New page: Asset Save: Step4
+[2023.02.12-13.26.47:988][419]LogContentValidation: Display: Validating World /Game/Book/Maps/Step4.Step4
+[2023.02.12-13.26.49:212][564]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.12-13.26.49:218][564]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.12-13.26.49:218][564]PIE: New page: PIE session: Step4 (2023. 2. 13. 오전 7:26:49)
+[2023.02.12-13.26.49:219][564]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.02.12-13.26.49:220][564]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.02.12-13.26.49:220][564]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step4
+[2023.02.12-13.26.49:220][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.26.49:220][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.26.49:220][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.26.49:220][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.26.49:220][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.26.49:220][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.26.49:220][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.26.49:220][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.26.49:220][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.26.49:221][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.26.49:221][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.26.49:221][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.26.49:221][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.26.49:221][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.26.49:221][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.26.49:221][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.26.49:221][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.26.49:221][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.26.49:223][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003263s)
+[2023.02.12-13.26.49:224][564]LogAIModule: Creating AISystem for world Step4
+[2023.02.12-13.26.49:224][564]LogPlayLevel: PIE: World Init took: (0.000949s)
+[2023.02.12-13.26.49:224][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step4.Step4 to /Game/Book/Maps/UEDPIE_0_Step4.Step4 (0.004312s)
+[2023.02.12-13.26.49:227][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.02.12-13.26.49:227][564]ArenaBattle: Warning: UABGameInstance::Init(19)DropExp of Level 20 ABCharacter : 105
+[2023.02.12-13.26.49:228][564]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.02.12-13.26.49:228][564]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.12-13.26.49:228][564]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.12-13.26.49:228][564]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.12-13.26.49:228][564]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.12-13.26.49:228][564]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.12-13.26.49:228][564]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.12-13.26.49:228][564]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.12-13.26.49:228][564]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.12-13.26.49:228][564]LogAudio: Display: Using built-in audio occlusion.
+[2023.02.12-13.26.49:228][564]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.12-13.26.49:229][564]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.12-13.26.49:230][564]LogAudioMixer: Display: 1: FrontRight
+[2023.02.12-13.26.49:242][564]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.02.12-13.26.49:242][564]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.12-13.26.49:242][564]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.12-13.26.49:242][564]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.12-13.26.49:242][564]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.12-13.26.49:242][564]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.12-13.26.49:242][564]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.12-13.26.49:253][564]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.12-13.26.49:253][564]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.12-13.26.49:253][564]LogInit: FAudioDevice initialized.
+[2023.02.12-13.26.49:253][564]LogAudio: Display: Audio Device (ID: 2) registered with world 'Step4'.
+[2023.02.12-13.26.49:260][564]LogLoad: Game class is 'ABGameMode'
+[2023.02.12-13.26.49:262][564]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step4.Step4 up for play (max tick rate 0) at 2023.02.12-22.26.49
+[2023.02.12-13.26.49:263][564]LogWorld: Bringing up level for play took: 0.002166
+[2023.02.12-13.26.49:263][564]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2023.02.12-13.26.49:264][564]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(25)
+[2023.02.12-13.26.49:264][564]ArenaBattle: Warning: AABGameMode::PostLogin(16)PostLogin Begin
+[2023.02.12-13.26.49:265][564]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.26.49:265][564]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.26.49:266][564]ArenaBattle: Warning: AABPlayerController::OnPossess(8)
+[2023.02.12-13.26.49:266][564]ArenaBattle: Warning: AABGameMode::PostLogin(18)PostLogin End
+[2023.02.12-13.26.49:266][564]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.02.12-13.26.49:266][564]PIE: Server logged in
+[2023.02.12-13.26.49:268][564]PIE: Play in editor total start time 0.051 seconds.
+[2023.02.12-13.26.49:608][571]LogTexture: Display: Building textures: T_CharM_Golden_N (BC5, 2048X2048)
+[2023.02.12-13.26.49:714][572]LogTexture: Display: Building textures: T_CharM_Golden_Mask (AutoDXT, 2048X2048)
+[2023.02.12-13.26.50:248][574]LogTexture: Display: Building textures: T_CharM_Golden_D (DXT1, 2048X2048)
+[2023.02.12-13.26.50:256][574]LogMaterial: Display: Missing cached shader map for material M_Char_Golden, compiling. 
+[2023.02.12-13.26.50:309][576]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 24
+[2023.02.12-13.26.50:309][576]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 21
+[2023.02.12-13.26.50:309][576]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 18
+[2023.02.12-13.26.50:309][576]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 15
+[2023.02.12-13.26.50:309][576]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 12
+[2023.02.12-13.26.50:309][576]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 9
+[2023.02.12-13.26.50:309][576]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 6
+[2023.02.12-13.26.50:309][576]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2023.02.12-13.26.50:310][576]LogSkeletalMesh: Building Skeletal Mesh SK_CharM_Golden...
+[2023.02.12-13.26.50:314][576]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.26.53:306][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.12-13.26.53:306][904]LogWorld: BeginTearingDown for /Game/Book/Maps/UEDPIE_0_Step4
+[2023.02.12-13.26.53:306][904]LogWorld: UWorld::CleanupWorld for Step4, bSessionEnded=true, bCleanupResources=true
+[2023.02.12-13.26.53:306][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.12-13.26.53:313][904]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.12-13.26.53:334][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.12-13.26.53:337][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.12-13.26.53:337][904]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.12-13.26.53:338][904]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.12-13.26.53:352][904]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.02.12-13.26.53:388][905]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.02.12-13.26.53:736][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step4" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.26.53:738][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.02.12-13.26.53:748][943]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step4EA41FA214E0BC7F2CF6B5A96C40A0F60.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap'
+[2023.02.12-13.26.53:763][943]AssetCheck: New page: Asset Save: Step4
+[2023.02.12-13.26.53:764][943]LogContentValidation: Display: Validating World /Game/Book/Maps/Step4.Step4
+[2023.02.12-13.26.53:893][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step4" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.26.53:896][957]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.02.12-13.26.53:905][957]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step490AE484E4001038AC81DB1A7526E706E.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap'
+[2023.02.12-13.26.53:913][957]LogFileHelpers: Saving map 'Step4' took 0.020
+[2023.02.12-13.26.53:919][957]AssetCheck: New page: Asset Save: Step4
+[2023.02.12-13.26.53:919][957]LogContentValidation: Display: Validating World /Game/Book/Maps/Step4.Step4
+[2023.02.12-13.26.55:651][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step4" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.26.55:653][161]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.12-13.26.55:663][161]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step4B4AF23CB447B83CD384A03ACC54A48D4.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap'
+[2023.02.12-13.26.55:680][161]AssetCheck: New page: Asset Save: Step4
+[2023.02.12-13.26.55:680][161]LogContentValidation: Display: Validating World /Game/Book/Maps/Step4.Step4
+[2023.02.12-13.26.55:797][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step4" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.26.55:799][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.12-13.26.55:808][172]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step454F6838C4007C2CB883D22AEC297C61E.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap'
+[2023.02.12-13.26.55:816][172]LogFileHelpers: Saving map 'Step4' took 0.020
+[2023.02.12-13.26.55:823][172]AssetCheck: New page: Asset Save: Step4
+[2023.02.12-13.26.55:823][172]LogContentValidation: Display: Validating World /Game/Book/Maps/Step4.Step4
+[2023.02.12-13.27.14:275][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step4" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.27.14:277][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.12-13.27.14:288][384]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step4D5A36C6B48DC2DAFA90195B73673E42A.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap'
+[2023.02.12-13.27.14:296][384]LogFileHelpers: Saving map 'Step4' took 0.022
+[2023.02.12-13.27.14:303][384]AssetCheck: New page: Asset Save: Step4
+[2023.02.12-13.27.14:303][384]LogContentValidation: Display: Validating World /Game/Book/Maps/Step4.Step4
+[2023.02.12-13.27.14:421][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step4" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.12-13.27.14:423][396]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.02.12-13.27.14:432][396]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step42097925B45CCEF9C52C3CFB52B499D92.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap'
+[2023.02.12-13.27.14:441][396]LogFileHelpers: Saving map 'Step4' took 0.020
+[2023.02.12-13.27.14:448][396]AssetCheck: New page: Asset Save: Step4
+[2023.02.12-13.27.14:448][396]LogContentValidation: Display: Validating World /Game/Book/Maps/Step4.Step4
+[2023.02.12-13.28.46:837][738]LogVSAccessor: Warning: Couldn't save all documents
+[2023.02.12-13.28.46:841][738]Candidate modules for hot reload:
+[2023.02.12-13.28.46:841][738]  ArenaBattle
+[2023.02.12-13.28.46:841][738]Launching UnrealBuildTool... [D:/MVAT/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaBattle,4106 ArenaBattleEditor Win64 Development -Project="D:/UnrealProject/UE4_Project/ArenaBattle/ArenaBattle.uproject" "D:/UnrealProject/UE4_Project/ArenaBattle/ArenaBattle.uproject"  -IgnoreJunk]
+[2023.02.12-13.28.46:843][738]Warning: Starting HotReload took  0.0s.
+[2023.02.12-13.28.54:029][548]CompilerResultsLog: New page: Compilation - 2023. 2. 13. 오전 7:28:54
+[2023.02.12-13.28.54:029][548]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealProject\UE4_Project).
+[2023.02.12-13.28.54:029][548]CompilerResultsLog: Parsing headers for ArenaBattleEditor
+[2023.02.12-13.28.54:029][548]CompilerResultsLog:   Running UnrealHeaderTool "D:\UnrealProject\UE4_Project\ArenaBattle\ArenaBattle.uproject" "D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mvat1\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.02.12-13.28.54:029][548]CompilerResultsLog: Reflection code generated for ArenaBattleEditor in 3.0623554 seconds
+[2023.02.12-13.28.54:029][548]CompilerResultsLog: Building ArenaBattleEditor...
+[2023.02.12-13.28.54:029][548]CompilerResultsLog: Using Visual Studio 2019 14.29.30146 toolchain (D:\VS2019\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.02.12-13.28.54:029][548]CompilerResultsLog: Building 5 actions with 16 processes...
+[2023.02.12-13.28.54:029][548]CompilerResultsLog:   [1/5] ABSection.gen.cpp
+[2023.02.12-13.28.54:029][548]CompilerResultsLog:   [2/5] ABSection.cpp
+[2023.02.12-13.28.54:029][548]CompilerResultsLog:   [3/5] UE4Editor-ArenaBattle-4106.lib
+[2023.02.12-13.28.54:029][548]CompilerResultsLog:      Creating library D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-4106.lib and object D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-4106.exp
+[2023.02.12-13.28.54:029][548]CompilerResultsLog:   [4/5] UE4Editor-ArenaBattle-4106.dll
+[2023.02.12-13.28.54:029][548]CompilerResultsLog:      Creating library D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-4106.suppressed.lib and object D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-4106.suppressed.exp
+[2023.02.12-13.28.54:029][548]CompilerResultsLog:   [5/5] ArenaBattleEditor.target
+[2023.02.12-13.28.54:029][548]CompilerResultsLog: Total time in Parallel executor: 3.37 seconds
+[2023.02.12-13.28.54:029][548]CompilerResultsLog: Total execution time: 7.12 seconds
+[2023.02.12-13.28.54:029][548]LogMainFrame: MainFrame: Module compiling took 7.192 seconds
+[2023.02.12-13.28.54:056][548]LogClass: ABCharacterData HotReload.
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.28.54:059][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.28.54:060][548]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.28.54:061][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.28.54:062][548]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.28.54:076][548]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ArenaBattle' in 0.0003 seconds. Added 18 classes and 2 folders.
+[2023.02.12-13.28.54:077][548]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2023.02.12-13.28.54:101][548]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0090 seconds. Added 3620 classes and 864 folders.
+[2023.02.12-13.28.54:104][548]Display: HotReload took  7.3s.
+[2023.02.12-13.29.01:968][477]LogVSAccessor: Warning: Couldn't save all documents
+[2023.02.12-13.29.01:972][477]Candidate modules for hot reload:
+[2023.02.12-13.29.01:972][477]  ArenaBattle
+[2023.02.12-13.29.01:972][477]Launching UnrealBuildTool... [D:/MVAT/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaBattle,7893 ArenaBattleEditor Win64 Development -Project="D:/UnrealProject/UE4_Project/ArenaBattle/ArenaBattle.uproject" "D:/UnrealProject/UE4_Project/ArenaBattle/ArenaBattle.uproject"  -IgnoreJunk]
+[2023.02.12-13.29.01:974][477]Warning: Starting HotReload took  0.0s.
+[2023.02.12-13.29.03:493][617]CompilerResultsLog: New page: Compilation - 2023. 2. 13. 오전 7:29:03
+[2023.02.12-13.29.03:493][617]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealProject\UE4_Project).
+[2023.02.12-13.29.03:493][617]CompilerResultsLog: Building ArenaBattleEditor...
+[2023.02.12-13.29.03:493][617]CompilerResultsLog: Using Visual Studio 2019 14.29.30146 toolchain (D:\VS2019\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.02.12-13.29.03:493][617]CompilerResultsLog: Building 3 actions with 16 processes...
+[2023.02.12-13.29.03:493][617]CompilerResultsLog:   [1/3] UE4Editor-ArenaBattle-7893.lib
+[2023.02.12-13.29.03:493][617]CompilerResultsLog:      Creating library D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-7893.lib and object D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-7893.exp
+[2023.02.12-13.29.03:493][617]CompilerResultsLog:   [2/3] UE4Editor-ArenaBattle-7893.dll
+[2023.02.12-13.29.03:493][617]CompilerResultsLog:      Creating library D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-7893.suppressed.lib and object D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-7893.suppressed.exp
+[2023.02.12-13.29.03:493][617]CompilerResultsLog:   [3/3] ArenaBattleEditor.target
+[2023.02.12-13.29.03:493][617]CompilerResultsLog: Total time in Parallel executor: 0.83 seconds
+[2023.02.12-13.29.03:493][617]CompilerResultsLog: Total execution time: 1.45 seconds
+[2023.02.12-13.29.03:493][617]LogMainFrame: MainFrame: Module compiling took 1.525 seconds
+[2023.02.12-13.29.03:520][617]LogClass: ABCharacterData HotReload.
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.29.03:522][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.29.03:524][617]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.29.03:524][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.29.03:525][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.29.03:525][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.29.03:525][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.29.03:525][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.29.03:525][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.29.03:525][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.29.03:525][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.29.03:525][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.29.03:525][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.29.03:525][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.29.03:526][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.29.03:526][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.29.03:526][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.29.03:526][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.29.03:526][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.29.03:526][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.29.03:526][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.29.03:526][617]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.29.03:539][617]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ArenaBattle' in 0.0003 seconds. Added 18 classes and 2 folders.
+[2023.02.12-13.29.03:540][617]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2023.02.12-13.29.03:565][617]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0095 seconds. Added 3620 classes and 864 folders.
+[2023.02.12-13.29.03:568][617]Display: HotReload took  1.6s.
+[2023.02.12-13.29.05:766][877]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.12-13.29.05:771][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.12-13.29.05:771][877]PIE: New page: PIE session: Step4 (2023. 2. 13. 오전 7:29:05)
+[2023.02.12-13.29.05:804][877]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step4
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.29.05:805][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.29.05:807][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003378s)
+[2023.02.12-13.29.05:808][877]LogAIModule: Creating AISystem for world Step4
+[2023.02.12-13.29.05:808][877]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2023.02.12-13.29.05:808][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step4.Step4 to /Game/Book/Maps/UEDPIE_0_Step4.Step4 (0.004324s)
+[2023.02.12-13.29.05:812][877]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.02.12-13.29.05:813][877]ArenaBattle: Warning: UABGameInstance::Init(19)DropExp of Level 20 ABCharacter : 105
+[2023.02.12-13.29.05:813][877]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.02.12-13.29.05:814][877]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.12-13.29.05:814][877]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.12-13.29.05:814][877]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.12-13.29.05:814][877]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.12-13.29.05:814][877]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.12-13.29.05:814][877]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.12-13.29.05:814][877]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.12-13.29.05:814][877]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.12-13.29.05:814][877]LogAudio: Display: Using built-in audio occlusion.
+[2023.02.12-13.29.05:814][877]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.12-13.29.05:815][877]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.12-13.29.05:815][877]LogAudioMixer: Display: 1: FrontRight
+[2023.02.12-13.29.05:827][877]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.02.12-13.29.05:828][877]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.12-13.29.05:828][877]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.12-13.29.05:828][877]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.12-13.29.05:828][877]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.12-13.29.05:828][877]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.12-13.29.05:828][877]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.12-13.29.05:839][877]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.12-13.29.05:839][877]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.12-13.29.05:839][877]LogInit: FAudioDevice initialized.
+[2023.02.12-13.29.05:839][877]LogAudio: Display: Audio Device (ID: 3) registered with world 'Step4'.
+[2023.02.12-13.29.05:849][877]LogLoad: Game class is 'ABGameMode'
+[2023.02.12-13.29.05:851][877]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step4.Step4 up for play (max tick rate 0) at 2023.02.12-22.29.05
+[2023.02.12-13.29.05:851][877]LogWorld: Bringing up level for play took: 0.001981
+[2023.02.12-13.29.05:852][877]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(25)
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABGameMode::PostLogin(16)PostLogin Begin
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/sk_CharM_Base.sk_CharM_Base
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Bladed.SK_CharM_Bladed
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Natural.SK_CharM_Natural
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Pit.SK_CharM_Pit
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_RaggedElite.SK_CharM_RaggedElite
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ram.SK_CharM_Ram
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Robo.SK_CharM_Robo
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Shell.SK_CharM_Shell
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_solid.SK_CharM_solid
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Standard.SK_CharM_Standard
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Tusk.SK_CharM_Tusk
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABCharacter::AABCharacter(109)Character Asset : /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.SK_CharM_Warrior
+[2023.02.12-13.29.05:853][877]ArenaBattle: Warning: AABPlayerController::OnPossess(8)
+[2023.02.12-13.29.05:854][877]ArenaBattle: Warning: AABGameMode::PostLogin(18)PostLogin End
+[2023.02.12-13.29.05:854][877]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.02.12-13.29.05:854][877]PIE: Server logged in
+[2023.02.12-13.29.05:855][877]PIE: Play in editor total start time 0.085 seconds.
+[2023.02.12-13.29.07:395][ 56]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.12-13.29.07:395][ 56]LogWorld: BeginTearingDown for /Game/Book/Maps/UEDPIE_0_Step4
+[2023.02.12-13.29.07:395][ 56]LogWorld: UWorld::CleanupWorld for Step4, bSessionEnded=true, bCleanupResources=true
+[2023.02.12-13.29.07:396][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.12-13.29.07:406][ 56]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.12-13.29.07:427][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.12-13.29.18:141][ 56]LogThreadingWindows: Error: Runnable thread TaskGraphThreadBP 28 crashed.
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: === Critical error: ===
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: 
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: Fatal error!
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: 
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffffffffffff
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: 
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: [Callstack] 0x00007ffb11a004b1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: [Callstack] 0x00007ffb11c4635b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: [Callstack] 0x00007ffb11c06c61 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: [Callstack] 0x00007ffb11c0fb18 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: [Callstack] 0x00007ffb164adf05 UE4Editor-Core.dll!UnknownFunction []
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: [Callstack] 0x00007ffb164af160 UE4Editor-Core.dll!UnknownFunction []
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: [Callstack] 0x00007ffb164b6495 UE4Editor-Core.dll!UnknownFunction []
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: [Callstack] 0x00007ffb16a0898b UE4Editor-Core.dll!UnknownFunction []
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: [Callstack] 0x00007ffb16a01620 UE4Editor-Core.dll!UnknownFunction []
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: [Callstack] 0x00007ffb8d117614 KERNEL32.DLL!UnknownFunction []
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: [Callstack] 0x00007ffb8e8426a1 ntdll.dll!UnknownFunction []
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: 
+[2023.02.12-13.29.18:141][ 56]LogWindows: Error: Crash in runnable thread TaskGraphThreadBP 28
+[2023.02.12-13.29.18:179][ 56]LogExit: Executing StaticShutdownAfterError
+[2023.02.12-13.29.18:179][ 56]LogWindows: FPlatformMisc::RequestExit(1)
+[2023.02.12-13.29.18:179][ 56]LogCore: Engine exit requested (reason: Win RequestExit)
+[2023.02.12-13.29.18:211][ 56]Log file closed, 02/12/23 22:29:18

@@ -1,6 +1,6 @@
 D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\Definitions.ArenaBattle.h
-D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\ABAIController.h
-D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\ArenaBattle.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Public\ABAIController.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Public\ArenaBattle.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Public\EngineMinimal.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\CoreUObject.h
@@ -230,9 +230,9 @@ D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Public\VisualLogger/VisualLoggerDeb
 D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
 D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIController.generated.h
 D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABAIController.generated.h
-D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\ABCharacter.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Public\ABCharacter.h
 D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABCharacter.generated.h
-D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\BTTask_Attack.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Public\BTTask_Attack.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTTaskNode.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTNode.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BehaviorTreeTypes.h

@@ -1,6 +1,6 @@
 D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\Definitions.ArenaBattle.h
-D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\ABCharacter.h
-D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\ArenaBattle.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Public\ABCharacter.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Public\ArenaBattle.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Public\EngineMinimal.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\CoreUObject.h
@@ -197,7 +197,7 @@ D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes
 D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABCharacter.generated.h
-D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\ABAIController.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Public\ABAIController.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\AIModule\Classes\AIController.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\NavigationSystem\Public\NavFilters/NavigationQueryFilter.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\NavigationSystem\Public\NavAreas/NavArea.h
@@ -244,7 +244,7 @@ D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AISystem.
 D:\MVAT\UE_4.26\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BlackboardData.h
 D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardData.generated.h
 D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardComponent.generated.h
-D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\BTTask_TurnToTarget.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Public\BTTask_TurnToTarget.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTTaskNode.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTNode.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BehaviorTreeComponent.h

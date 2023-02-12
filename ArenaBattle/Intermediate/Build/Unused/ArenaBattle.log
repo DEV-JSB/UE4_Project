@@ -1,35 +1,15 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealProject\UE4_Project).
-  Parsing headers for ArenaBattleEditor
-    Running UnrealHeaderTool "D:\UnrealProject\UE4_Project\ArenaBattle\ArenaBattle.uproject" "D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mvat1\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for ArenaBattleEditor in 2.9370317 seconds
-  Deleted hot-reload file: D:\UnrealProject\UE4_Project\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0002.dll
-  Deleted hot-reload file: D:\UnrealProject\UE4_Project\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0003.dll
-  Deleted hot-reload file: D:\UnrealProject\UE4_Project\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0004.dll
-  Deleted hot-reload file: D:\UnrealProject\UE4_Project\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0005.dll
-  Deleted hot-reload file: D:\UnrealProject\UE4_Project\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0007.dll
-  Deleted hot-reload file: D:\UnrealProject\UE4_Project\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0011.dll
-  Deleted hot-reload file: D:\UnrealProject\UE4_Project\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0016.dll
-  Deleted hot-reload file: D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0002.lib
-  Deleted hot-reload file: D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0003.lib
-  Deleted hot-reload file: D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0004.lib
-  Deleted hot-reload file: D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0005.lib
-  Deleted hot-reload file: D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0007.lib
-  Deleted hot-reload file: D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0011.lib
-  Deleted hot-reload file: D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0016.lib
   Building ArenaBattleEditor...
   Using Visual Studio 2019 14.29.30146 toolchain (D:\VS2019\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 10 actions with 16 processes...
-    [1/10] ABGameMode.cpp
-    [2/10] ABCharacter.gen.cpp
-    [3/10] ABItemBox.cpp
-    [4/10] BTTask_Attack.cpp
-    [5/10] BTDecorator_IsInAttackRange.cpp
-    [6/10] BTService_Detect.cpp
-    [7/10] ABCharacter.cpp
-    [8/10] UE4Editor-ArenaBattle.lib
-       Creating library D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle.lib and object D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle.exp
-    [9/10] UE4Editor-ArenaBattle.dll
-       Creating library D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle.suppressed.lib and object D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle.suppressed.exp
-    [10/10] ArenaBattleEditor.target
-  Total time in Parallel executor: 5.13 seconds
-  Total execution time: 8.66 seconds
+  Building 5 actions with 16 processes...
+    [1/5] UE4Editor-ArenaBattleSetting-0006.lib
+       Creating library D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0006.lib and object D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0006.exp
+    [2/5] UE4Editor-ArenaBattle-0006.lib
+       Creating library D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0006.lib and object D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0006.exp
+    [3/5] UE4Editor-ArenaBattleSetting-0006.dll
+       Creating library D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0006.suppressed.lib and object D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0006.suppressed.exp
+    [4/5] UE4Editor-ArenaBattle-0006.dll
+       Creating library D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0006.suppressed.lib and object D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0006.suppressed.exp
+    [5/5] ArenaBattleEditor.target
+  Total time in Parallel executor: 1.03 seconds
+  Total execution time: 1.67 seconds

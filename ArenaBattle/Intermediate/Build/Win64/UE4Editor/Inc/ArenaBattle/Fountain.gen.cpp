@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ArenaBattle/Fountain.h"
+#include "ArenaBattle/Public/Fountain.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -74,14 +74,14 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFountain_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "Fountain.h" },
-		{ "ModuleRelativePath", "Fountain.h" },
+		{ "ModuleRelativePath", "Public/Fountain.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFountain_Statics::NewProp_m_pBody_MetaData[] = {
 		{ "Category", "Fountain" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Fountain.h" },
+		{ "ModuleRelativePath", "Public/Fountain.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFountain_Statics::NewProp_m_pBody = { "m_pBody", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFountain, m_pBody), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFountain_Statics::NewProp_m_pBody_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFountain_Statics::NewProp_m_pBody_MetaData)) };
@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFountain_Statics::NewProp_m_pWater_MetaData[] = {
 		{ "Category", "Fountain" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Fountain.h" },
+		{ "ModuleRelativePath", "Public/Fountain.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFountain_Statics::NewProp_m_pWater = { "m_pWater", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFountain, m_pWater), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFountain_Statics::NewProp_m_pWater_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFountain_Statics::NewProp_m_pWater_MetaData)) };
@@ -97,7 +97,7 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFountain_Statics::NewProp_m_pLight_MetaData[] = {
 		{ "Category", "Fountain" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Fountain.h" },
+		{ "ModuleRelativePath", "Public/Fountain.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFountain_Statics::NewProp_m_pLight = { "m_pLight", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFountain, m_pLight), Z_Construct_UClass_UPointLightComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFountain_Statics::NewProp_m_pLight_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFountain_Statics::NewProp_m_pLight_MetaData)) };
@@ -105,7 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFountain_Statics::NewProp_m_pSplash_MetaData[] = {
 		{ "Category", "Fountain" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Fountain.h" },
+		{ "ModuleRelativePath", "Public/Fountain.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFountain_Statics::NewProp_m_pSplash = { "m_pSplash", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFountain, m_pSplash), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFountain_Statics::NewProp_m_pSplash_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFountain_Statics::NewProp_m_pSplash_MetaData)) };
@@ -113,14 +113,14 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFountain_Statics::NewProp_m_pMovement_MetaData[] = {
 		{ "Category", "Fountain" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Fountain.h" },
+		{ "ModuleRelativePath", "Public/Fountain.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFountain_Statics::NewProp_m_pMovement = { "m_pMovement", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFountain, m_pMovement), Z_Construct_UClass_URotatingMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFountain_Statics::NewProp_m_pMovement_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFountain_Statics::NewProp_m_pMovement_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFountain_Statics::NewProp_m_iID_MetaData[] = {
 		{ "Category", "ID" },
-		{ "ModuleRelativePath", "Fountain.h" },
+		{ "ModuleRelativePath", "Public/Fountain.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AFountain_Statics::NewProp_m_iID = { "m_iID", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFountain, m_iID), METADATA_PARAMS(Z_Construct_UClass_AFountain_Statics::NewProp_m_iID_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFountain_Statics::NewProp_m_iID_MetaData)) };
@@ -128,7 +128,7 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFountain_Statics::NewProp_m_fRotateSpeed_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
 		{ "Category", "Stat" },
-		{ "ModuleRelativePath", "Fountain.h" },
+		{ "ModuleRelativePath", "Public/Fountain.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFountain_Statics::NewProp_m_fRotateSpeed = { "m_fRotateSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFountain, m_fRotateSpeed), METADATA_PARAMS(Z_Construct_UClass_AFountain_Statics::NewProp_m_fRotateSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFountain_Statics::NewProp_m_fRotateSpeed_MetaData)) };
@@ -168,7 +168,7 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFountain, 1498571968);
+	IMPLEMENT_CLASS(AFountain, 1144817301);
 	template<> ARENABATTLE_API UClass* StaticClass<AFountain>()
 	{
 		return AFountain::StaticClass();

@@ -1,6 +1,6 @@
 D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\Definitions.ArenaBattle.h
-D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\ABCharacterStatComponent.h
-D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\ArenaBattle.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Public\ABCharacterStatComponent.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Public\ArenaBattle.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Public\EngineMinimal.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\CoreUObject.h
@@ -197,8 +197,9 @@ D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes
 D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABCharacterStatComponent.generated.h
-D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\ABGameInstance.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Public\ABGameInstance.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
 D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
+D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/StreamableManager.h
 D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABGameInstance.generated.h
