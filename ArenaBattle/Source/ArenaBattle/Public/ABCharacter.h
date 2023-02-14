@@ -6,7 +6,6 @@
 #include "GameFramework/Character.h"
 #include "ABCharacter.generated.h"
 
-
 DECLARE_MULTICAST_DELEGATE(FOnAttackEndDelegate);
 
 UCLASS()
@@ -17,6 +16,9 @@ class ARENABATTLE_API AABCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	AABCharacter();
+
+	void SetCharacterState(ECharacterState NewState);
+	ECharacterState GetCharacterState() const;
 
 protected:
 	// Called when the game starts or when spawned
@@ -55,7 +57,6 @@ public:
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent
 		, class AController* EventInstigator, AActor* DamageCauser) override;
 
-	virtual void PossessedBy(AController* NewController)override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
@@ -80,6 +81,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, Category = Weapon)
 		USkeletalMeshComponent* m_pWeapon;
+public:
+	void Attack();
+	FOnAttackEndDelegate OnAttackEnd;
 
 private:
 	void UpDown(float _fNewAxisValue);
@@ -126,8 +130,21 @@ private:
 	FSoftObjectPath CharacterAssetToLoad = FSoftObjectPath(nullptr);
 	TSharedPtr<struct FStreamableHandle> AssetStreamingHandle;
 	// 
-public:
-	void Attack();
-	FOnAttackEndDelegate OnAttackEnd;
+	
+	//14
+	int32 AssetIndex = 0;
+	//
+	UPROPERTY(Transient, VisibleInstanceOnly, BlueprintReadOnly, Category = State, Meta = (AllowPrivateAccess = true))
+		ECharacterState CurrentState;
+	UPROPERTY(Transient, VisibleInstanceOnly, BlueprintReadonly, Category = State, Meta = (AllowPrivateAccess = true))
+		bool bIsPlayer;
+	UPROPERTY()
+		class AABAIController* ABAIController;
+	UPROPERTY()
+		class AABPlayerController* ABPlayerController;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = State, Meta = (AllowprivateAccess = true))
+		float DeadTimer;
+	FTimerHandle DeadTimerHandle = {};
 
 };

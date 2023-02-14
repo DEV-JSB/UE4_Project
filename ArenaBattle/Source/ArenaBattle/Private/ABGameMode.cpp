@@ -3,12 +3,14 @@
 
 #include "ABGameMode.h"
 #include "ABCharacter.h"
+#include "ABPlayerState.h"
 #include "ABPlayerController.h"
 
 AABGameMode::AABGameMode()
 {
 	DefaultPawnClass = AABCharacter::StaticClass();
 	PlayerControllerClass = AABPlayerController::StaticClass();
+	PlayerStateClass = AABPlayerState::StaticClass();
 }
 
 void AABGameMode::PostLogin(APlayerController* _pNewPlayer)
@@ -16,4 +18,10 @@ void AABGameMode::PostLogin(APlayerController* _pNewPlayer)
 	ABLOG(Warning, TEXT("PostLogin Begin"));
 	Super::PostLogin(_pNewPlayer);
 	ABLOG(Warning, TEXT("PostLogin End"));
+
+
+	auto ABPlayerState = Cast<AABPlayerState>(_pNewPlayer->PlayerState);
+	ABCHECK(nullptr != ABPlayerState);
+	ABPlayerState->InitPlayerData();
+
 }
