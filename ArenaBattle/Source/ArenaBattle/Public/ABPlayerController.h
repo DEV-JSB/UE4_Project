@@ -21,11 +21,13 @@ public:
 	virtual void OnPossess(APawn* _pAPawn);
 	class UABHUDWidget* GetHUDWidget() const;
 
+	void NPCKill(class AABCharacter* KilledNPC) const;
 protected:
 	UPROPERTY(EditDefaultsOnly , BlueprintReadWrite, Category = UI)
 		TSubclassOf<class UABHUDWidget> HUDWidgetClass;
 private:
 	UPROPERTY()
 		class UABHUDWidget* HUDWidget;
-
+	UPROPERTY()
+		class AABPlayerState* ABPlayerState;
 };

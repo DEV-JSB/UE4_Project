@@ -20,15 +20,13 @@ public:
 
 protected:
 	virtual void NativeConstruct()override;
-	void UpdateCharacterState();
-	void UdpatePlayerState();
+	void UpdateCharacterStat();
+	void UpdatePlayerState();
 
 private:
 	TWeakObjectPtr<class UABCharacterStatComponent> CurrentCharacterStat;
 	TWeakObjectPtr<class AABPlayerState> CurrentPlayerState;
 
-
-protected:
 	UPROPERTY()
 		class UProgressBar* HPBar;
 	UPROPERTY()

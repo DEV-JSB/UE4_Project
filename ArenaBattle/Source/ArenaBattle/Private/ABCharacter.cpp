@@ -105,14 +105,6 @@ AABCharacter::AABCharacter()
 
 
 	auto DefaultSetting = GetDefault<UABCharacterSetting>();
-	if (DefaultSetting->CharacterAssets.Num() > 0)
-	{
-		for (auto CharacterAsset : DefaultSetting->CharacterAssets)
-		{
-			ABLOG(Warning, TEXT("Character Asset : %s"), *CharacterAsset.ToString());
-		}
-	}
-
 
 	AssetIndex = 4;
 	SetActorHiddenInGame(true);
@@ -219,6 +211,11 @@ void AABCharacter::SetCharacterState(ECharacterState NewState)
 ECharacterState AABCharacter::GetCharacterState() const
 {
 	return ECharacterState();
+}
+
+int32 AABCharacter::GetExp() const
+{
+	return CharacterStat->GetDropExp();
 }
 
 // Called when the game starts or when spawned
@@ -417,6 +414,16 @@ float AABCharacter::TakeDamage(float DamageAmount, FDamageEvent const& DamageEve
 	ABLOG(Warning, TEXT("Actor : %s took Damage : %f"), *GetName(), FinalDamage);
 
 	CharacterStat->SetDamage(FinalDamage);
+
+	if (CurrentState == ECharacterState::DEAD)
+	{
+		if (EventInstigator->IsPlayerController())
+		{
+			auto PlayerController = Cast<AABPlayerController>(EventInstigator);
+			ABCHECK(nullptr != ABPlayerController, 0.0f);
+			ABPlayerController->NPCKill(this);
+		}
+	}
 	return FinalDamage;
 }
 

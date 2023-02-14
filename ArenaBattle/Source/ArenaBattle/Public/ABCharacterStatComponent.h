@@ -22,7 +22,6 @@ public:
 
 protected:
 	// Called when the game starts
-	virtual void BeginPlay() override;
 	virtual void InitializeComponent() override;
 
 
@@ -30,8 +29,10 @@ public:
 	void SetNewLevel(int32 NewLevel);
 	void SetDamage(float NewDamage);
 	void SetHP(float NewHP);
-	float GetHPRatio();
+	float GetHPRatio()const;
 	float GetAttack();
+
+	int32 GetDropExp()const;
 
 	FOnHPIsZeroDelegate OnHPIsZero;
 	FOnHPChangedDelegate OnHPChanged;
@@ -44,9 +45,4 @@ private:
 	UPROPERTY(Transient,VisibleInstanceOnly , Category = Stat, Meta = (AllowPrivateAccess = true))
 		float CurrentHP;
 
-public:	
-	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
-		
 };

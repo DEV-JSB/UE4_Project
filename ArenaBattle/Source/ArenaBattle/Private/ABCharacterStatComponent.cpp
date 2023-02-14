@@ -18,15 +18,6 @@ UABCharacterStatComponent::UABCharacterStatComponent()
 }
 
 
-// Called when the game starts
-void UABCharacterStatComponent::BeginPlay()
-{
-	Super::BeginPlay();
-
-	// ...
-	
-}
-
 void UABCharacterStatComponent::InitializeComponent()
 {
 	Super::InitializeComponent();
@@ -71,7 +62,7 @@ void UABCharacterStatComponent::SetHP(float NewHP)
 	}
 }
 
-float UABCharacterStatComponent::GetHPRatio()
+float UABCharacterStatComponent::GetHPRatio() const
 {
 	ABCHECK(nullptr != CurrentStatData, 0.0f);
 	return (CurrentStatData->MaxHP < KINDA_SMALL_NUMBER) ? 0.0f : (CurrentHP / CurrentStatData->MaxHP);
@@ -84,12 +75,8 @@ float UABCharacterStatComponent::GetAttack()
 	return CurrentStatData->Attack;
 }
 
-
-// Called every frame
-void UABCharacterStatComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+int32 UABCharacterStatComponent::GetDropExp() const
 {
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-	// ...
+	
+	return CurrentStatData->DropExp;
 }
-
