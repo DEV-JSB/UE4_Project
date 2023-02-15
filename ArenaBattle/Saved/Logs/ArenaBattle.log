@@ -885,3 +885,356 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.02.15-08.40.02:641][883]AssetCheck: New page: Asset Save: multiple assets
 [2023.02.15-08.40.02:641][883]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Book/Maps/Step4_BuiltData.Step4_BuiltData
 [2023.02.15-08.40.02:641][883]LogContentValidation: Display: Validating World /Game/Book/Maps/Step4.Step4
+[2023.02.15-09.36.43:639][499]LogEditorViewport: Clicking on Actor (LMB): ABSection (ABSection1)
+[2023.02.15-09.36.43:960][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step4" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.15-09.36.43:965][499]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.02.15-09.36.43:976][499]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step4B0D2B679404A3E4EFD4EBAAAB8A78191.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4.umap'
+[2023.02.15-09.36.43:987][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step4_BuiltData" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4_BuiltData.uasset" SILENT=true
+[2023.02.15-09.36.43:993][499]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/Step4_BuiltData00F284C043A0590141E5AF93E8774404.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/Step4_BuiltData.uasset'
+[2023.02.15-09.36.44:000][499]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.15-09.36.44:000][499]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Book/Maps/Step4_BuiltData.Step4_BuiltData
+[2023.02.15-09.36.44:000][499]LogContentValidation: Display: Validating World /Game/Book/Maps/Step4.Step4
+[2023.02.15-09.37.06:660][168]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.02.15-09.37.15:705][168]LogSlate: Window 'Save Level As' being destroyed
+[2023.02.15-09.37.15:739][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/GamePlay" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/GamePlay.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.15-09.37.15:745][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.02.15-09.37.15:755][168]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/GamePlay0CF5B1D2474F291F389AA3A4C2DF1FD7.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/GamePlay.umap'
+[2023.02.15-09.37.15:763][168]LogFileHelpers: Saving map 'GamePlay' took 0.046
+[2023.02.15-09.37.15:763][168]Cmd: MAP LOAD FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/GamePlay.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.02.15-09.37.15:780][168]LightingResults: New page: Lighting Build
+[2023.02.15-09.37.15:780][168]LoadErrors: New page: Loading map: GamePlay.umap
+[2023.02.15-09.37.15:802][168]LogWorld: UWorld::CleanupWorld for Step4, bSessionEnded=true, bCleanupResources=true
+[2023.02.15-09.37.15:802][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.15-09.37.15:802][168]MapCheck: New page: Map Check
+[2023.02.15-09.37.15:802][168]LightingResults: New page: Lighting Build
+[2023.02.15-09.37.15:804][168]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.15-09.37.15:806][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.02.15-09.37.15:807][168]LogAudio: Display: Audio Device (ID: 1) registered with world 'GamePlay'.
+[2023.02.15-09.37.15:872][168]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.02.15-09.37.15:872][168]LogAIModule: Creating AISystem for world GamePlay
+[2023.02.15-09.37.15:877][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.02.15-09.37.15:892][168]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.02.15-09.37.15:893][168]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.09ms to complete.
+[2023.02.15-09.37.15:893][168]LogFileHelpers: Loading map 'GamePlay' took 0.129
+[2023.02.15-09.37.15:896][168]AssetCheck: New page: Asset Save: GamePlay
+[2023.02.15-09.37.15:896][168]LogContentValidation: Display: Validating World /Game/Book/Maps/GamePlay.GamePlay
+[2023.02.15-09.37.17:084][306]ArenaBattle: Warning: AFountain::PostInitializeComponents(76)
+[2023.02.15-09.37.17:134][309]ArenaBattle: Warning: AABPawn::PostInitializeComponents(86)
+[2023.02.15-09.37.17:164][311]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(32)ASSERTION : 'nullptr != ABGameInstance'
+[2023.02.15-09.37.32:674][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.02.15-09.37.32:687][149]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Book/Maps/GamePlay.GamePlay
+[2023.02.15-09.37.32:687][149]Cmd: MAP LOAD FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/GamePlay.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.02.15-09.37.32:687][149]LightingResults: New page: Lighting Build
+[2023.02.15-09.37.32:687][149]LoadErrors: New page: Loading map: GamePlay.umap
+[2023.02.15-09.37.32:711][149]LogWorld: UWorld::CleanupWorld for GamePlay, bSessionEnded=true, bCleanupResources=true
+[2023.02.15-09.37.32:712][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.15-09.37.32:712][149]MapCheck: New page: Map Check
+[2023.02.15-09.37.32:712][149]LightingResults: New page: Lighting Build
+[2023.02.15-09.37.32:714][149]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.15-09.37.32:716][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.02.15-09.37.32:721][149]LogAudio: Display: Audio Device (ID: 1) registered with world 'GamePlay'.
+[2023.02.15-09.37.32:722][149]LogAIModule: Creating AISystem for world GamePlay
+[2023.02.15-09.37.32:786][149]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.02.15-09.37.32:791][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.02.15-09.37.32:801][149]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.02.15-09.37.32:802][149]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.105ms to complete.
+[2023.02.15-09.37.32:802][149]LogFileHelpers: Loading map 'GamePlay' took 0.115
+[2023.02.15-09.37.41:954][228]Cmd: DELETE
+[2023.02.15-09.37.41:954][228]Cmd: ACTOR DELETE
+[2023.02.15-09.37.42:070][228]LogEditorActor: Deleted Actor: ABItemBox
+[2023.02.15-09.37.42:074][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.02.15-09.37.42:075][228]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2023.02.15-09.37.45:676][612]Cmd: DELETE
+[2023.02.15-09.37.45:676][612]Cmd: ACTOR DELETE
+[2023.02.15-09.37.45:677][612]LogEditorActor: Deleted Actor: ABCharacter
+[2023.02.15-09.37.45:688][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.02.15-09.37.45:689][612]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2023.02.15-09.38.03:511][657]Cmd: DELETE
+[2023.02.15-09.38.03:512][657]Cmd: ACTOR DELETE
+[2023.02.15-09.38.03:513][657]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
+[2023.02.15-09.38.03:521][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.02.15-09.38.03:523][657]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2023.02.15-09.38.29:294][673]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2023.02.15-09.38.29:672][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/GamePlay" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/GamePlay.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.15-09.38.29:674][714]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.15-09.38.29:686][714]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/GamePlay26EA182B4536743A03C9959F9EF8D3B9.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/GamePlay.umap'
+[2023.02.15-09.38.29:705][714]AssetCheck: New page: Asset Save: GamePlay
+[2023.02.15-09.38.29:705][714]LogContentValidation: Display: Validating World /Game/Book/Maps/GamePlay.GamePlay
+[2023.02.15-09.38.34:567][260]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.02.15-09.39.31:950][ 37]LogSlate: Took 0.033399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.02.15-09.39.48:146][896]Running D:/MVAT/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/UnrealProject/UE4_Project/ArenaBattle/ArenaBattle.uproject" -game -rocket -progress
+[2023.02.15-09.39.48:451][896]Discovering modules, targets and source code for project...
+[2023.02.15-09.39.50:968][896]Binding IntelliSense data...
+[2023.02.15-09.40.03:069][896]Binding IntelliSense data... 50%
+[2023.02.15-09.40.03:069][896]ERROR: Circular dependency on ArenaBattleSetting.Build.cs detected.
+[2023.02.15-09.40.03:069][896]       	Full Route: Target -> ArenaBattle.Build.cs -> ArenaBattleSetting.Build.cs -> ArenaBattleSetting.Build.cs
+[2023.02.15-09.40.03:069][896]       	Cycled Route: is ArenaBattle -> ArenaBattleSetting -> ArenaBattleSetting.
+[2023.02.15-09.40.03:069][896]       Break this loop by moving dependencies into a separate module or using Private/PublicIncludePathModuleNames to reference declarations
+[2023.02.15-09.40.03:170][896]Binding IntelliSense data... 100%
+[2023.02.15-09.40.03:271][896]Writing project files...
+[2023.02.15-09.40.12:948][896]Writing project files... 100%
+[2023.02.15-09.40.13:071][896]Candidate modules for hot reload:
+[2023.02.15-09.40.13:071][896]  ArenaBattle
+[2023.02.15-09.40.13:071][896]Launching UnrealBuildTool... [D:/MVAT/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaBattle,1964 ArenaBattleEditor Win64 Development -Project="D:/UnrealProject/UE4_Project/ArenaBattle/ArenaBattle.uproject" "D:/UnrealProject/UE4_Project/ArenaBattle/ArenaBattle.uproject"  -IgnoreJunk]
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: New page: Compilation - 2023. 2. 16. 오전 3:40:35
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealProject\UE4_Project).
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: Creating makefile for ArenaBattleEditor (no existing makefile)
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: ERROR: Circular dependency on ArenaBattleSetting.Build.cs detected.
+[2023.02.15-09.40.35:791][896]CompilerResultsLog:         Full Route: Target -> ArenaBattle.Build.cs -> ArenaBattleSetting.Build.cs -> ArenaBattleSetting.Build.cs
+[2023.02.15-09.40.35:791][896]CompilerResultsLog:         Cycled Route: is ArenaBattle -> ArenaBattleSetting -> ArenaBattleSetting.
+[2023.02.15-09.40.35:791][896]CompilerResultsLog:        Break this loop by moving dependencies into a separate module or using Private/PublicIncludePathModuleNames to reference declarations
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: Parsing headers for ArenaBattleEditor
+[2023.02.15-09.40.35:791][896]CompilerResultsLog:   Running UnrealHeaderTool "D:\UnrealProject\UE4_Project\ArenaBattle\ArenaBattle.uproject" "D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mvat1\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: Reflection code generated for ArenaBattleEditor in 17.0022371 seconds
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: Error: D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Private\ABHUDWidget.cpp(1) : error: Expected ABHUDWidget.h to be first header included.
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: Error: D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Private\ABPlayerController.cpp(1) : error: Expected ABPlayerController.h to be first header included.
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: Error: D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Private\ABSection.cpp(1) : error: Expected ABSection.h to be first header included.
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: Error: D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Private\BTDecorator_IsInAttackRange.cpp(1) : error: Expected BTDecorator_IsInAttackRange.h to be first header included.
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: Error: D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Private\BTService_Detect.cpp(1) : error: Expected BTService_Detect.h to be first header included.
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: Error: D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Private\BTTask_Attack.cpp(1) : error: Expected BTTask_Attack.h to be first header included.
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: Error: D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Private\BTTask_TurnToTarget.cpp(1) : error: Expected BTTask_TurnToTarget.h to be first header included.
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: Building ArenaBattleEditor...
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: Using Visual Studio 2019 14.29.30146 toolchain (D:\VS2019\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: Building 6 actions with 16 processes...
+[2023.02.15-09.40.35:791][896]CompilerResultsLog:   [1/6] ArenaBattle.init.gen.cpp
+[2023.02.15-09.40.35:791][896]CompilerResultsLog:   [2/6] ABGameState.cpp
+[2023.02.15-09.40.35:791][896]CompilerResultsLog:   [3/6] ABGameState.gen.cpp
+[2023.02.15-09.40.35:791][896]CompilerResultsLog:   [4/6] UE4Editor-ArenaBattle-1964.lib
+[2023.02.15-09.40.35:791][896]CompilerResultsLog:      Creating library D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-1964.lib and object D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-1964.exp
+[2023.02.15-09.40.35:791][896]CompilerResultsLog:   [5/6] UE4Editor-ArenaBattle-1964.dll
+[2023.02.15-09.40.35:791][896]CompilerResultsLog:      Creating library D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-1964.suppressed.lib and object D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-1964.suppressed.exp
+[2023.02.15-09.40.35:791][896]CompilerResultsLog:   [6/6] ArenaBattleEditor.target
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: Total time in Parallel executor: 3.29 seconds
+[2023.02.15-09.40.35:791][896]CompilerResultsLog: Total execution time: 22.65 seconds
+[2023.02.15-09.40.35:792][896]LogMainFrame: MainFrame: Module compiling took 22.727 seconds
+[2023.02.15-09.40.35:823][896]LogClass: Could not find existing class ABGameState in package /Script/ArenaBattle for HotReload, assuming new class
+[2023.02.15-09.40.35:825][896]LogClass: ECharacterState HotReload.
+[2023.02.15-09.40.35:825][896]LogClass: ABCharacterData HotReload.
+[2023.02.15-09.40.35:829][896]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2023.02.15-09.40.35:844][896]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ArenaBattle' in 0.0003 seconds. Added 21 classes and 2 folders.
+[2023.02.15-09.40.35:846][896]Display: HotReload successful (7 functions remapped  1 scriptstructs remapped)
+[2023.02.15-09.40.35:884][896]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0108 seconds. Added 3623 classes and 864 folders.
+[2023.02.15-09.40.35:888][896]Display: HotReload took 22.8s.
+[2023.02.15-09.40.35:894][896]Warning: HotReload operation took 22.8s.
+[2023.02.15-09.40.37:439][896]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/UnrealProject/UE4_Project/ArenaBattle/Source/ArenaBattle/Private/ABGameState.cpp'
+[2023.02.15-09.40.37:460][896]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.02.15-09.40.37:496][897]LogHotReload: New module detected: UE4Editor-ArenaBattle-1964.dll
+[2023.02.15-09.40.37:517][898]LogHotReload: Starting Hot-Reload from IDE
+[2023.02.15-09.40.37:537][898]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ArenaBattle' in 0.0003 seconds. Added 21 classes and 2 folders.
+[2023.02.15-09.40.37:537][898]Display: HotReload successful (0 functions remapped  1 scriptstructs remapped)
+[2023.02.15-09.40.37:548][898]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0112 seconds. Added 3623 classes and 864 folders.
+[2023.02.15-09.40.37:556][898]Display: HotReload took  0.0s.
+[2023.02.15-09.40.39:497][ 87]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2023.02.15-09.40.39:658][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/GamePlay" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/GamePlay.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.15-09.40.39:660][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.02.15-09.40.39:672][102]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/GamePlayB533ED194F69327AAE2218B4F7A91E9C.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/GamePlay.umap'
+[2023.02.15-09.40.39:690][102]AssetCheck: New page: Asset Save: GamePlay
+[2023.02.15-09.40.39:690][102]LogContentValidation: Display: Validating World /Game/Book/Maps/GamePlay.GamePlay
+[2023.02.15-09.40.42:412][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/GamePlay" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/GamePlay.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.15-09.40.42:415][418]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.02.15-09.40.42:429][418]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/GamePlay6E13C3CB45BBD62A60882EA49A57E26F.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/GamePlay.umap'
+[2023.02.15-09.40.42:452][418]AssetCheck: New page: Asset Save: GamePlay
+[2023.02.15-09.40.42:452][418]LogContentValidation: Display: Validating World /Game/Book/Maps/GamePlay.GamePlay
+[2023.02.15-10.01.53:633][689]LogVSAccessor: Warning: Couldn't save all documents
+[2023.02.15-10.01.53:637][689]Candidate modules for hot reload:
+[2023.02.15-10.01.53:637][689]  ArenaBattle
+[2023.02.15-10.01.53:637][689]Launching UnrealBuildTool... [D:/MVAT/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaBattle,3601 ArenaBattleEditor Win64 Development -Project="D:/UnrealProject/UE4_Project/ArenaBattle/ArenaBattle.uproject" "D:/UnrealProject/UE4_Project/ArenaBattle/ArenaBattle.uproject"  -IgnoreJunk]
+[2023.02.15-10.01.53:639][689]Warning: Starting HotReload took  0.1s.
+[2023.02.15-10.02.05:817][940]CompilerResultsLog: New page: Compilation - 2023. 2. 16. 오전 4:02:05
+[2023.02.15-10.02.05:817][940]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealProject\UE4_Project).
+[2023.02.15-10.02.05:817][940]CompilerResultsLog: Parsing headers for ArenaBattleEditor
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:   Running UnrealHeaderTool "D:\UnrealProject\UE4_Project\ArenaBattle\ArenaBattle.uproject" "D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mvat1\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.02.15-10.02.05:817][940]CompilerResultsLog: Reflection code generated for ArenaBattleEditor in 3.2782238 seconds
+[2023.02.15-10.02.05:817][940]CompilerResultsLog: Building ArenaBattleEditor...
+[2023.02.15-10.02.05:817][940]CompilerResultsLog: Using Visual Studio 2019 14.29.30146 toolchain (D:\VS2019\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.02.15-10.02.05:817][940]CompilerResultsLog: Building 16 actions with 16 processes...
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:   [1/16] ArenaBattle.init.gen.cpp
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:   [2/16] ABGameState.cpp
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:   [3/16] ABPlayerState.cpp
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:   [4/16] ABGameMode.cpp
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:   [5/16] ABSection.cpp
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:   [6/16] ABPlayerController.gen.cpp
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:   [7/16] ABPlayerState.gen.cpp
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:   [8/16] ABGameMode.gen.cpp
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:   [9/16] ABSection.gen.cpp
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:   [10/16] ABGameState.gen.cpp
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:   [11/16] ABPlayerController.cpp
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:   [12/16] ABCharacter.cpp
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:   [13/16] ABHUDWidget.cpp
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:   [14/16] UE4Editor-ArenaBattle-3601.lib
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:      Creating library D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-3601.lib and object D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-3601.exp
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:   [15/16] UE4Editor-ArenaBattle-3601.dll
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:      Creating library D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-3601.suppressed.lib and object D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-3601.suppressed.exp
+[2023.02.15-10.02.05:817][940]CompilerResultsLog:   [16/16] ArenaBattleEditor.target
+[2023.02.15-10.02.05:817][940]CompilerResultsLog: Total time in Parallel executor: 8.11 seconds
+[2023.02.15-10.02.05:817][940]CompilerResultsLog: Total execution time: 12.11 seconds
+[2023.02.15-10.02.05:817][940]LogMainFrame: MainFrame: Module compiling took 12.185 seconds
+[2023.02.15-10.02.05:844][940]LogClass: Could not find existing class ABGameMode in package /Script/ArenaBattle for HotReload, assuming new class
+[2023.02.15-10.02.05:844][940]LogClass: Could not find existing class ABGameState in package /Script/ArenaBattle for HotReload, assuming new class
+[2023.02.15-10.02.05:845][940]LogClass: Could not find existing class ABSection in package /Script/ArenaBattle for HotReload, assuming new class
+[2023.02.15-10.02.05:845][940]LogClass: Function OnGateTriggerBeginOverlap is new.
+[2023.02.15-10.02.05:845][940]LogClass: Function OnKeyNPCDestroyed is new.
+[2023.02.15-10.02.05:845][940]LogClass: Function OnTriggerBeginOverlap is new.
+[2023.02.15-10.02.05:846][940]LogClass: ECharacterState HotReload.
+[2023.02.15-10.02.05:846][940]LogClass: ABCharacterData HotReload.
+[2023.02.15-10.02.05:854][940]LogHotReload: Re-instancing ABGameMode after hot-reload.
+[2023.02.15-10.02.05:858][940]LogHotReload: Re-instancing ABGameState after hot-reload.
+[2023.02.15-10.02.05:869][940]LogHotReload: Re-instancing ABSection after hot-reload.
+[2023.02.15-10.02.05:876][940]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ArenaBattle' in 0.0003 seconds. Added 21 classes and 2 folders.
+[2023.02.15-10.02.05:877][940]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2023.02.15-10.02.05:902][940]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0089 seconds. Added 3623 classes and 864 folders.
+[2023.02.15-10.02.05:904][940]Display: HotReload took 12.4s.
+[2023.02.15-10.02.08:566][255]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.15-10.02.08:572][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.15-10.02.08:573][255]PIE: New page: PIE session: GamePlay (2023. 2. 16. 오전 4:02:08)
+[2023.02.15-10.02.08:600][255]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_GamePlay
+[2023.02.15-10.02.08:606][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005844s)
+[2023.02.15-10.02.08:607][255]LogAIModule: Creating AISystem for world GamePlay
+[2023.02.15-10.02.08:607][255]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2023.02.15-10.02.08:607][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/GamePlay.GamePlay to /Game/Book/Maps/UEDPIE_0_GamePlay.GamePlay (0.007196s)
+[2023.02.15-10.02.08:610][255]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.02.15-10.02.08:612][255]ArenaBattle: Warning: UABGameInstance::Init(19)DropExp of Level 20 ABCharacter : 105
+[2023.02.15-10.02.08:612][255]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.02.15-10.02.08:612][255]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.15-10.02.08:612][255]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.15-10.02.08:612][255]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.15-10.02.08:612][255]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.15-10.02.08:612][255]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.15-10.02.08:612][255]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.15-10.02.08:612][255]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.15-10.02.08:612][255]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.15-10.02.08:612][255]LogAudio: Display: Using built-in audio occlusion.
+[2023.02.15-10.02.08:612][255]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.15-10.02.08:614][255]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.15-10.02.08:614][255]LogAudioMixer: Display: 1: FrontRight
+[2023.02.15-10.02.08:627][255]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.02.15-10.02.08:627][255]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.15-10.02.08:627][255]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.15-10.02.08:627][255]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.15-10.02.08:627][255]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.15-10.02.08:627][255]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.15-10.02.08:627][255]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.15-10.02.08:638][255]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.15-10.02.08:638][255]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.15-10.02.08:638][255]LogInit: FAudioDevice initialized.
+[2023.02.15-10.02.08:638][255]LogAudio: Display: Audio Device (ID: 3) registered with world 'GamePlay'.
+[2023.02.15-10.02.08:646][255]LogLoad: Game class is 'ABGameMode'
+[2023.02.15-10.02.08:648][255]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_GamePlay.GamePlay up for play (max tick rate 0) at 2023.02.15-19.02.08
+[2023.02.15-10.02.08:648][255]LogWorld: Bringing up level for play took: 0.001559
+[2023.02.15-10.02.08:648][255]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2023.02.15-10.02.08:650][255]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(60)
+[2023.02.15-10.02.08:650][255]ArenaBattle: Warning: AABGameMode::PostLogin(26)PostLogin Begin
+[2023.02.15-10.02.08:651][255]ArenaBattle: Warning: AABPlayerController::OnPossess(18)
+[2023.02.15-10.02.08:651][255]ArenaBattle: Warning: AABGameMode::PostLogin(28)PostLogin End
+[2023.02.15-10.02.08:651][255]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.02.15-10.02.08:652][255]ArenaBattle: Warning: AABPlayerState::GetExpRatio(38)Ratio : 0.000000, Current : 0, Next : 450
+[2023.02.15-10.02.08:652][255]PIE: Server logged in
+[2023.02.15-10.02.08:653][255]PIE: Play in editor total start time 0.081 seconds.
+[2023.02.15-10.02.09:605][368]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.15:417][ 65]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.15:701][ 99]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.15:918][125]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.16:652][213]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.16:934][247]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.17:068][263]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.17:226][282]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.17:809][352]ArenaBattle: Warning: AABItemBox::OnCharacterOverlap(77)
+[2023.02.15-10.02.18:001][375]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.18:285][409]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.19:885][601]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.20:167][635]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.20:251][645]ArenaBattle: Warning: AABCharacter::AttackCheck(629)Hit Actor Name : ABCharacter_0
+[2023.02.15-10.02.20:251][645]ArenaBattle: Warning: AABCharacter::TakeDamage(414)Actor : ABCharacter_0 took Damage : 10.000000
+[2023.02.15-10.02.20:326][654]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.22:035][859]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.23:018][977]ArenaBattle: Warning: AABCharacter::AttackCheck(629)Hit Actor Name : ABCharacter_1
+[2023.02.15-10.02.23:018][977]ArenaBattle: Warning: AABCharacter::TakeDamage(414)Actor : ABCharacter_1 took Damage : 30.000000
+[2023.02.15-10.02.23:093][986]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.23:376][ 20]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.24:152][113]ArenaBattle: Warning: AABCharacter::AttackCheck(629)Hit Actor Name : ABCharacter_1
+[2023.02.15-10.02.24:152][113]ArenaBattle: Warning: AABCharacter::TakeDamage(414)Actor : ABCharacter_1 took Damage : 30.000000
+[2023.02.15-10.02.24:227][122]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.24:402][143]ArenaBattle: Warning: AABCharacter::AttackCheck(629)Hit Actor Name : ABCharacter_0
+[2023.02.15-10.02.24:402][143]ArenaBattle: Warning: AABCharacter::TakeDamage(414)Actor : ABCharacter_0 took Damage : 10.000000
+[2023.02.15-10.02.24:476][152]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.24:510][156]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.25:385][261]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.25:668][295]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.27:768][547]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.28:051][581]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.28:343][616]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.30:386][861]ArenaBattle: Warning: AABCharacter::AttackCheck(629)Hit Actor Name : ABCharacter_0
+[2023.02.15-10.02.30:386][861]ArenaBattle: Warning: AABCharacter::TakeDamage(414)Actor : ABCharacter_0 took Damage : 10.000000
+[2023.02.15-10.02.30:461][870]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.31:402][983]ArenaBattle: Warning: AABCharacter::AttackCheck(629)Hit Actor Name : ABCharacter_1
+[2023.02.15-10.02.31:402][983]ArenaBattle: Warning: AABCharacter::TakeDamage(414)Actor : ABCharacter_1 took Damage : 30.000000
+[2023.02.15-10.02.31:477][992]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.32:535][119]ArenaBattle: Warning: AABCharacter::AttackCheck(629)Hit Actor Name : ABCharacter_1
+[2023.02.15-10.02.32:535][119]ArenaBattle: Warning: AABCharacter::TakeDamage(414)Actor : ABCharacter_1 took Damage : 30.000000
+[2023.02.15-10.02.32:535][119]ArenaBattle: Warning: AABPlayerState::GetExpRatio(38)Ratio : 0.022222, Current : 10, Next : 450
+[2023.02.15-10.02.32:610][128]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.37:622][726]ArenaBattle: Warning: AABPlayerState::GetExpRatio(38)Ratio : 0.022222, Current : 10, Next : 450
+[2023.02.15-10.02.43:651][449]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.43:934][483]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.44:110][504]ArenaBattle: Warning: AABCharacter::AttackCheck(629)Hit Actor Name : ABCharacter_2
+[2023.02.15-10.02.44:110][504]ArenaBattle: Warning: AABCharacter::TakeDamage(414)Actor : ABCharacter_2 took Damage : 30.000000
+[2023.02.15-10.02.44:226][518]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.44:718][577]ArenaBattle: Warning: AABCharacter::AttackCheck(629)Hit Actor Name : ABCharacter_0
+[2023.02.15-10.02.44:718][577]ArenaBattle: Warning: AABCharacter::TakeDamage(414)Actor : ABCharacter_0 took Damage : 10.000000
+[2023.02.15-10.02.44:792][586]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.45:102][623]ArenaBattle: Warning: AABCharacter::AttackCheck(629)Hit Actor Name : ABCharacter_2
+[2023.02.15-10.02.45:102][623]ArenaBattle: Warning: AABCharacter::TakeDamage(414)Actor : ABCharacter_2 took Damage : 30.000000
+[2023.02.15-10.02.45:309][648]ArenaBattle: Warning: AABCharacter::AttackCheck(629)Hit Actor Name : ABCharacter_0
+[2023.02.15-10.02.45:309][648]ArenaBattle: Warning: AABCharacter::TakeDamage(414)Actor : ABCharacter_0 took Damage : 10.000000
+[2023.02.15-10.02.45:384][657]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.46:393][778]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.46:676][812]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.46:760][822]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.47:850][953]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.48:093][982]ArenaBattle: Warning: AABCharacter::AttackCheck(629)Hit Actor Name : ABCharacter_2
+[2023.02.15-10.02.48:093][982]ArenaBattle: Warning: AABCharacter::TakeDamage(414)Actor : ABCharacter_2 took Damage : 30.000000
+[2023.02.15-10.02.48:134][987]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.48:301][  7]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.48:426][ 22]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.49:484][149]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.49:767][183]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.50:643][288]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.50:842][312]ArenaBattle: Warning: AABCharacter::AttackCheck(629)Hit Actor Name : ABCharacter_0
+[2023.02.15-10.02.50:842][312]ArenaBattle: Warning: AABCharacter::TakeDamage(414)Actor : ABCharacter_0 took Damage : 10.000000
+[2023.02.15-10.02.50:917][321]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.50:926][322]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.52:101][463]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.53:343][612]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.55:451][865]ArenaBattle: Warning: AABCharacter::AttackCheck(629)Hit Actor Name : ABCharacter_2
+[2023.02.15-10.02.55:451][865]ArenaBattle: Warning: AABCharacter::TakeDamage(414)Actor : ABCharacter_2 took Damage : 30.000000
+[2023.02.15-10.02.55:451][865]ArenaBattle: Warning: AABPlayerState::GetExpRatio(38)Ratio : 0.044444, Current : 20, Next : 450
+[2023.02.15-10.02.55:526][874]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.55:609][884]ArenaBattle: Warning: AABCharacter::AttackCheck(629)Hit Actor Name : ABCharacter_0
+[2023.02.15-10.02.55:610][884]ArenaBattle: Warning: AABCharacter::TakeDamage(414)Actor : ABCharacter_0 took Damage : 10.000000
+[2023.02.15-10.02.55:684][893]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.02.55:810][908]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_043d4e8a617fb5b2b8c583353a6e0175>::operator ()(395)OnNextAttackCheck
+[2023.02.15-10.03.00:452][465]ArenaBattle: Warning: AABPlayerState::GetExpRatio(38)Ratio : 0.044444, Current : 20, Next : 450
+[2023.02.15-10.03.02:435][703]ArenaBattle: Warning: AABSection::OnGateTriggerBeginOverlap(180)New Section Area is not empty
+[2023.02.15-10.03.02:976][768]ArenaBattle: Warning: AABSection::OnGateTriggerBeginOverlap(180)New Section Area is not empty
+[2023.02.15-10.03.06:091][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.15-10.03.06:091][136]LogWorld: BeginTearingDown for /Game/Book/Maps/UEDPIE_0_GamePlay
+[2023.02.15-10.03.06:091][136]LogWorld: UWorld::CleanupWorld for GamePlay, bSessionEnded=true, bCleanupResources=true
+[2023.02.15-10.03.06:091][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.15-10.03.06:098][136]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.15-10.03.06:105][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.15-10.03.06:107][136]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.15-10.03.06:108][136]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.15-10.03.06:109][136]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.15-10.03.06:121][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.15-10.03.06:124][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.02.15-10.03.06:154][137]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.02.15-10.03.06:721][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/GamePlay" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/GamePlay.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.15-10.03.06:724][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.02.15-10.03.06:734][202]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/GamePlayDF5CC586473232D5FED0E6B3DF3D97A2.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/GamePlay.umap'
+[2023.02.15-10.03.06:750][202]AssetCheck: New page: Asset Save: GamePlay
+[2023.02.15-10.03.06:750][202]LogContentValidation: Display: Validating World /Game/Book/Maps/GamePlay.GamePlay
+[2023.02.15-10.03.08:732][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/GamePlay" FILE="../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/GamePlay.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.15-10.03.08:734][438]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.15-10.03.08:744][438]LogSavePackage: Moving '../../../../../UnrealProject/UE4_Project/ArenaBattle/Saved/GamePlay1A178DAF49E9675493AFD98E3E4CC1DB.tmp' to '../../../../../UnrealProject/UE4_Project/ArenaBattle/Content/Book/Maps/GamePlay.umap'
+[2023.02.15-10.03.08:759][438]AssetCheck: New page: Asset Save: GamePlay
+[2023.02.15-10.03.08:759][438]LogContentValidation: Display: Validating World /Game/Book/Maps/GamePlay.GamePlay

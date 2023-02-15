@@ -205,3 +205,7 @@ D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerState
 D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABPlayerState.generated.h
 D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Public\ABPlayerController.h
 D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABPlayerController.generated.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Source\ArenaBattle\Public\ABGameState.h
+D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameStateBase.h
+D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameStateBase.generated.h
+D:\UnrealProject\UE4_Project\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABGameState.generated.h
