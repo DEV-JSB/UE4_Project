@@ -70,7 +70,7 @@ AABCharacter::AABCharacter()
 
 	GetCapsuleComponent()->SetCollisionProfileName(TEXT("ABCharacter"));
 
-	m_fAttackRange = 200.0f;
+	m_fAttackRange = 80.0f;
 	m_fAttackRadius = 50.0f;
 
 	/*FName WeaponSocket(TEXT("hand_rSocket"));
@@ -191,7 +191,7 @@ void AABCharacter::SetCharacterState(ECharacterState NewState)
 		GetWorld()->GetTimerManager().SetTimer(DeadTimerHandle, FTimerDelegate::CreateLambda([this]()->void {
 			if (bIsPlayer)
 			{
-				ABPlayerController->RestartLevel();
+				ABPlayerController->ShowResultUI();
 			}
 			else
 			{
@@ -216,6 +216,20 @@ ECharacterState AABCharacter::GetCharacterState() const
 int32 AABCharacter::GetExp() const
 {
 	return CharacterStat->GetDropExp();
+}
+
+float AABCharacter::GetFinalAttackRange() const
+{
+	return (nullptr != CurrentWeapon) ? CurrentWeapon->GetAttackRange() : m_fAttackRange;
+}
+
+float AABCharacter::GetFinalAttackDamage() const
+{
+	float AttackDamage = (nullptr != CurrentWeapon) ? (CharacterStat->GetAttack() + CurrentWeapon->GetAttackDamage())
+		: CharacterStat->GetAttack();
+
+	float AttackModifier = (nullptr != CurrentWeapon) ? CurrentWeapon->GetAttackModifier() : 1.0f;
+	return AttackDamage * AttackModifier;
 }
 
 // Called when the game starts or when spawned
@@ -282,7 +296,9 @@ void AABCharacter::BeginPlay()
 
 	if (bIsPlayer)
 	{
-		AssetIndex = 4;
+		auto ABPlayerState = Cast<AABPlayerState>(GetPlayerState());
+		ABCHECK(nullptr != ABPlayerState);
+		AssetIndex = ABPlayerState->GetCharacterIndex();
 	}
 	else
 	{
@@ -448,18 +464,18 @@ void AABCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 bool AABCharacter::CanSetWeapon()
 {
-	return (nullptr == CurrentWeapon);
+	return true;
 }
 
 void AABCharacter::SetWeapon(AABWeapon* NewWeapon)
 {
-	ABCHECK(nullptr != NewWeapon && nullptr == CurrentWeapon);
-	FName WeaponSocket(TEXT("hand_rSocket"));
-	if (nullptr != NewWeapon)
+	ABCHECK(nullptr != NewWeapon);
+
+	if (nullptr != CurrentWeapon)
 	{
-		NewWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponSocket);
-		NewWeapon->SetOwner(this);
-		CurrentWeapon = NewWeapon;
+		CurrentWeapon->DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
+		CurrentWeapon->Destroy();
+		CurrentWeapon = nullptr;
 	}
 }
 
@@ -591,20 +607,22 @@ void AABCharacter::AttackEndComboState()
 
 void AABCharacter::AttackCheck()
 {
+	float FinalAttackRange = GetFinalAttackRange();
+
 	FHitResult HitResult;
 	FCollisionQueryParams Params(NAME_None, false, this);
 	bool bResult = GetWorld()->SweepSingleByChannel(HitResult
 													, GetActorLocation()
-													, GetActorLocation() + GetActorForwardVector() * m_fAttackRange
+													, GetActorLocation() + GetActorForwardVector() * FinalAttackRange
 													, FQuat::Identity
 													, ECollisionChannel::ECC_GameTraceChannel2
 													, FCollisionShape::MakeSphere(m_fAttackRadius)
 													, Params);
 
 #if ENABLE_DRAW_DEBUG
-	FVector TraceVec = GetActorForwardVector() * m_fAttackRange;
+	FVector TraceVec = GetActorForwardVector() * FinalAttackRange;
 	FVector Center = GetActorLocation() + TraceVec * 0.5f;
-	float HalfHeight = m_fAttackRange * 0.5f + m_fAttackRadius;
+	float HalfHeight = FinalAttackRange * 0.5f + m_fAttackRadius;
 	FQuat CapsuleRot = FRotationMatrix::MakeFromZ(TraceVec).ToQuat();
 	FColor DrawColor = bResult ? FColor::Green : FColor::Red;
 	float DebugLifeTime = 5.0f;
@@ -629,7 +647,7 @@ void AABCharacter::AttackCheck()
 			ABLOG(Warning, TEXT("Hit Actor Name : %s"), *HitResult.Actor->GetName());
 
 			FDamageEvent DamageEvent;
-			HitResult.Actor->TakeDamage(CharacterStat->GetAttack(), DamageEvent, GetController(), this);
+			HitResult.Actor->TakeDamage(GetFinalAttackDamage() , DamageEvent, GetController(), this);
 		}
 	}
 }
