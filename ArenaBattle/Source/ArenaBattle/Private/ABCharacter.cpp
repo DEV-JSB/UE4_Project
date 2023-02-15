@@ -132,10 +132,10 @@ void AABCharacter::SetCharacterState(ECharacterState NewState)
 
 			ABPlayerController->GetHUDWidget()->BindCharacterStat(CharacterStat);
 
-
 			auto ABPlayerState = Cast<AABPlayerState>(GetPlayerState());
 			ABCHECK(nullptr != ABPlayerState);
 			CharacterStat->SetNewLevel(ABPlayerState->GetCharacterLevel());
+			CharacterStat->OnHPChanged.Broadcast();
 		}
 		SetActorHiddenInGame(true);
 		HPBarWidget->SetHiddenInGame(true);
@@ -420,8 +420,8 @@ float AABCharacter::TakeDamage(float DamageAmount, FDamageEvent const& DamageEve
 		if (EventInstigator->IsPlayerController())
 		{
 			auto PlayerController = Cast<AABPlayerController>(EventInstigator);
-			ABCHECK(nullptr != ABPlayerController, 0.0f);
-			ABPlayerController->NPCKill(this);
+			ABCHECK(nullptr != PlayerController, 0.0f);
+			PlayerController->NPCKill(this);
 		}
 	}
 	return FinalDamage;
