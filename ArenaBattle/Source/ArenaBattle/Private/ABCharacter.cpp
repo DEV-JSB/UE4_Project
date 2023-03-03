@@ -459,7 +459,7 @@ void AABCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAction(TEXT("ViewChange"), EInputEvent::IE_Pressed,this, &AABCharacter::ViewChange);
 	PlayerInputComponent->BindAction(TEXT("Attack"), EInputEvent::IE_Pressed, this, &AABCharacter::Attack);
 
-	PlayerInputComponent->BindAction(TEXT("JUMP"), EInputEvent::IE_Pressed, this, &AABCharacter::Jump);
+	PlayerInputComponent->BindAction(TEXT("JUMP"), EInputEvent::IE_Pressed, this, &AABCharacter::Dash);
 }
 
 bool AABCharacter::CanSetWeapon()
@@ -508,6 +508,21 @@ void AABCharacter::LeftRight(float _fNewAxisValue)
 	default:
 		break;
 	}
+}
+
+void AABCharacter::Dash()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Dash"));
+	FVector DashDirection = GetActorForwardVector();
+	FVector DashVelocity = DashDirection * 10000.f;
+
+	GetCharacterMovement()->Velocity = DashVelocity;
+	GetWorldTimerManager().SetTimer(DashTimerHandle, this, &AABCharacter::DashEnd, 1.0f, false);
+}
+
+void AABCharacter::DashEnd()
+{
+	GetCharacterMovement()->Velocity = FVector::ZeroVector;
 }
 
 void AABCharacter::LookUp(float _fNewAxisValue)

@@ -92,6 +92,9 @@ private:
 	void UpDown(float _fNewAxisValue);
 	void LeftRight(float _fNewAxisValue);
 
+	void Dash();
+	void DashEnd();
+
 	void LookUp(float _fNewAxisValue);
 	void Turn(float _fNewAxisValue);
 
@@ -133,7 +136,6 @@ private:
 	FSoftObjectPath CharacterAssetToLoad = FSoftObjectPath(nullptr);
 	TSharedPtr<struct FStreamableHandle> AssetStreamingHandle;
 	// 
-	
 	//14
 	int32 AssetIndex = 0;
 	//
@@ -149,5 +151,7 @@ private:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = State, Meta = (AllowprivateAccess = true))
 		float DeadTimer;
 	FTimerHandle DeadTimerHandle = {};
+
+	FTimerHandle DashTimerHandle = {};
 
 };
